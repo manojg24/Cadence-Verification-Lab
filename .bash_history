@@ -1,0 +1,254 @@
+#1756476916
+ls
+#1756476923
+load-csce-616
+#1756477093
+ls
+#1756477122
+cd home
+#1756477123
+ls
+#1756477134
+cd grads
+#1756477136
+ls
+#1756477142
+cd m
+#1756477143
+ls
+#1756477315
+cd home/grads/m/
+#1756477320
+cd home
+#1756477323
+ls
+#1756477345
+load-csce-616
+#1756482823
+ls
+#1756482827
+cd lab-0-manojg24/
+#1756482830
+cd work
+#1756482902
+ls
+#1756482906
+cd sim
+#1756482937
+xrun -f run.f
+#1756482945
+ls
+#1756482995
+cd ../../
+#1756483021
+source setupX.bash
+#1756483032
+cd work/sim
+#1756483047
+xrun -f run.f
+#1756483075
+cd ../../
+#1756483085
+load-csce-616
+#1756842454
+ls
+#1756842458
+cd lab-0-manojg24/
+#1756842459
+cd
+#1756842461
+ls
+#1756842467
+cd lab-0-manojg24/
+#1756842469
+ls
+#1756842472
+cd work
+#1756842718
+git status
+#1756842743
+cd sim
+#1756842805
+xrun -f run.f
+#1756842839
+cd ../../
+#1756842854
+load-csce-616
+#1756843154
+cd lab-0-manojg24/
+#1756843157
+cd work
+#1756843163
+git status
+#1756843175
+cd ..
+#1756843177
+git status
+#1756843182
+git add .
+#1756843195
+git commit -m"Waveform fix"
+#1756843201
+git push
+#1757123476
+ls
+#1757123490
+load-csce-616
+#1757469647
+cd lab-1-manojg24/
+#1757469656
+load-csce-616
+#1757805256
+cd lab-2-manojg24/
+#1757805266
+load-csce-616
+#1758228933
+cd activity-1-abcde/
+#1758228936
+cd work
+#1758230181
+git status
+#1758230192
+git pull
+#1758230220
+git add tb/top.sv
+#1758230222
+git status
+#1758230236
+git commit -m"top.sv file"
+#1758230243
+git push
+#1758237175
+cd activity-1-abcde/
+#1758237178
+cd work
+#1758237190
+git pull
+#1758237225
+git status
+#1758237234
+load-csce-616
+#1758298940
+cd lab-3-manojg24/
+#1758300157
+load-csce-616
+#1759364660
+cd lab-3-manojg24/
+#1759364667
+load-csce-616
+#1761263936
+ls
+#1761263967
+git clone https://github.com/CSCE-616-FA25/lab-6-manojg24.git
+#1761264002
+ls
+#1761264006
+cd lab-6
+#1761264010
+cd lab-6-manojg24/
+#1761264011
+ls
+#1761264030
+load csce-616
+#1761264071
+load-csce-616
+#1761266000
+cd lab-6-manojg24/
+#1761266013
+source setupX.bash 
+#1761266018
+ls
+#1761266024
+cd work
+#1761266027
+git status
+#1761266031
+git checkout .
+#1761266961
+git status
+#1761266967
+cd ..
+#1761266970
+cd sim
+#1761266973
+ls
+#1761266976
+cd work
+#1761266980
+cd sim
+#1761267053
+xrun -f run.f +UVM_TESTNAME=simple_random_test
+#1761267197
+imc &
+#1761267721
+simvision waves.shm/ &
+#1761268040
+exit
+#1761268046
+git status
+#1761268050
+ls
+#1761268055
+cd lab-6-manojg24/
+#1761268058
+git status
+#1761268099
+cd work/sim
+#1761268121
+cd ..
+#1761268123
+git status
+#1761268126
+git add .
+#1761268130
+git sattus
+#1761268133
+git status
+#1761268152
+git commit -m"Lab-6-complete"
+#1761268155
+git push
+#1761268183
+git status
+#1761845099
+load-csce-616
+#1762094728
+ls
+#1762094740
+git clone 
+#1762094772
+git clone https://github.com/CSCE-616-FA25/lab-7-manojg24.git
+#1762094806
+ls
+#1762094813
+cd lab-7-manojg24/
+#1762094815
+ls
+#1762094821
+load-csce-616
+#1763095985
+ls
+#1763095994
+load-csce-616
+#1764811086
+ls
+#1764811095
+cd lab-10-manojg24/
+#1764811098
+ls
+#1764811101
+cd work
+#1764811102
+ls
+#1764812128
+git ststua
+#1764812131
+git status
+#1764812518
+source ../../load-csce-616
+#1764812527
+load-csce-616
+#1764864191
+load-cese-616
+#1764864229
+load-csce-616
