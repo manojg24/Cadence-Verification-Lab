@@ -1,0 +1,108 @@
+xrun: 22.03-s012: (c) Copyright 1995-2023 Cadence Design Systems, Inc.
+TOOL:	xrun	22.03-s012: Started on Sep 19, 2025 at 11:15:13 CDT
+xrun
+	-f run.f
+		+access+rwc
+		-timescale 1ns/1ps
+		-input waves.tcl
+		-uvmhome /opt/coe/cadence/XCELIUM/tools/methodology/UVM/CDNS-1.1d/sv
+		+incdir+/opt/coe/cadence/XCELIUM/tools/methodology/UVM/CDNS-1.1d/sv/src
+		+UVM_VERBOSITY=UVM_LOW
+		-f file_list.f
+			-incdir ../tb
+			../tb/top.sv
+
+   User defined plus("+") options:
+	+UVM_VERBOSITY=UVM_LOW
+
+include ../../../../../../../cds.lib
+|
+xrun: *W,DLCPTH (./xcelium.d/run.lnx86.22.03.d/cdsrun.lib,2): cds.lib No such file '/home/grads/cds.lib' (cds.lib command ignored).
+file: ../tb/top.sv
+	int violations = 0;
+	               |
+xmvlog: *W,VARIST (../tb/top.sv,102|16): Local static variable with initializer requires 'static' keyword.
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		top
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                       Instances  Unique
+		Modules:                       1       1
+		Verilog packages:              4       4
+		Registers:                 12930   10049
+		Named events:                  4      12
+		Initial blocks:              253     147
+		Parallel blocks:              26      27
+		Assertions:                    2       2
+		SV Class declarations:       190     304
+		SV Class specializations:    339     339
+		Simulation timescale:        1ps
+	Writing initial simulation snapshot: worklib.top:sv
+Loading snapshot worklib.top:sv .................... Done
+SVSEED default: 1
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xcelium> source /opt/coe/cadence/XCELIUM/tools/xcelium/files/xmsimrc
+xcelium> source /opt/coe/cadence/XCELIUM/tools/methodology/UVM/CDNS-1.1d/sv/files/tcl/uvm_sim.tcl
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create top -all -memories -depth all -tasks -functions -all -database waves -waveform
+xmsim: *W,PRFRTNEV: (-FUNCTION) Database must be opened in -EVENT mode to capture calling scope data.
+xmsim: *W,PRLDYN: The design contains dynamic objects. The "-all" option excludes dynamic objects to improve performance. To enable probing of dynamic objects the "-all -dynamic" options should be added to the probe command.
+Created probe 1
+xcelium> 
+xcelium> run
+----------------------------------------------------------------
+CDNS-UVM-1.1d (22.03-s012)
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+=== Activity 1: Learning SystemVerilog Constraints ===
+
+--- Basic Test: Generate 5 Random Packets ---
+Packet 0:
+Packet: size=359 bytes, dest=1, priority=0
+Packet 1:
+Packet: size=1124 bytes, dest=3, priority=0
+Packet 2:
+Packet: size=976 bytes, dest=2, priority=0
+Packet 3:
+Packet: size=302 bytes, dest=9, priority=2
+Packet 4:
+Packet: size=1360 bytes, dest=4, priority=1
+priority distribution results
+priority 0: 63 packets(63%)
+priority 1: 27 packets(27%)
+priority 2: 9 packets(9%)
+priority 3: 1 packets(1%)
+Toatal violations: 0
+SUCCESS: Constraint relationship working correctly!
+
+=== Activity 1 Complete! You're ready for Lab 3! ===
+Simulation complete via $finish(1) at time 0 FS + 0
+../tb/top.sv:45 		$finish;
+xcelium> exit
+TOOL:	xrun	22.03-s012: Exiting on Sep 19, 2025 at 11:15:15 CDT  (total: 00:00:02)

@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<vplanx:plan xmlns:vplanx="http://www.cadence.com/vplanx">
+    <metaData id="3f3dbf29-b049-4571-9679-5c1cd744f296">
+        <name>CSCE 616 HTAX Verification Plan</name>
+        <planId>3f3dbf29-b049-4571-9679-5c1cd744f296</planId>
+        <sourceTool>vPlanner</sourceTool>
+        <toolVersion>15.10</toolVersion>
+        <schemaVersion>1.0</schemaVersion>
+        <buildTime>2016-01-27 01:28:53</buildTime>
+    </metaData>
+    <rootElements>
+        <section id="9d092c52-7ca0-44eb-ba91-f44ddb339403">
+            <name>HTAX_v014</name>
+            <attributes>
+                <attribute>
+                    <name>details</name>
+                    <value>HTAX: Abbreviation for HyperTransport Advanced X-Bar. The HTAX defines a switching
+structure which resides in the HTOC fabric and allows bidirectional communication between
+different communication endpoints. The HTAX is a protocol agnostic switch and by definition
+able to switch arbitrary protocols. It is however optimized to support the HTOC protocol</value>
+                </attribute>
+            </attributes>
+            <subElements>
+                <section id="2798a32c-3c9b-4d92-955f-3022b509c077">
+                    <name>System Interface</name>
+                    <attributes>
+                        <attribute>
+                            <name>details</name>
+                            <value>System Interface.  There may be more to follow...</value>
+                        </attribute>
+                    </attributes>
+                    <subElements>
+                        <metricsPort id="9c2a7bfa-5f79-4d72-9ad2-76d24b11ff61">
+                            <name>Testcases to verify System Interface</name>
+                            <attributes>
+<attribute>
+    <name>metrics_port_kind</name>
+    <value>TESTCASE</value>
+</attribute>
+<attribute>
+    <name>details</name>
+    <value>Testcases to verify System Interface</value>
+</attribute>
+                            </attributes>
+                            <assumePlanned>false</assumePlanned>
+                        </metricsPort>
+                        <metricsPort id="e8faba39-020b-4966-b56a-2c4551a0f50a">
+                            <name>Assertions_slash_Checkers for System Interface</name>
+                            <attributes>
+<attribute>
+    <name>metrics_port_kind</name>
+    <value>CHECK</value>
+</attribute>
+<attribute>
+    <name>details</name>
+    <value>Assertions/Checkers for System Interface</value>
+</attribute>
+                            </attributes>
+                            <assumePlanned>false</assumePlanned>
+                        </metricsPort>
+                    </subElements>
+                </section>
+                <section id="9b7e6f72-d3d7-4e41-8432-600f35c1d70a">
+                    <name>TX Interface </name>
+                    <attributes>
+                        <attribute>
+                            <name>details</name>
+                            <value>TX Interface.  Data packets are injected into the HTAX through the TX interface. Figure 2 (in specification) shows the TX interface signaling.</value>
+                        </attribute>
+                    </attributes>
+                    <subElements>
+                        <section id="939d6f8e-af8f-4c61-a697-3aeb2da67975">
+                            <name>TX testcases</name>
+                            <attributes>
+<attribute>
+    <name>creator</name>
+    <value>manojgangaraja</value>
+</attribute>
+                            </attributes>
+                            <subElements>
+<metricsPort id="9937dc2c-ef48-4fa2-bd63-7e2d3a53f741">
+    <name>Simple port-port test</name>
+    <attributes>
+        <attribute>
+            <name>metrics_port_kind</name>
+            <value>TESTCASE</value>
+        </attribute>
+        <attribute>
+            <name>creator</name>
+            <value>manojgangaraja</value>
+        </attribute>
+        <attribute>
+            <name>details</name>
+            <value>Test with fixed TX port i and fixed RX port j</value>
+        </attribute>
+    </attributes>
+    <assumePlanned>false</assumePlanned>
+</metricsPort>
+<metricsPort id="c8e0be82-c39c-4d46-a905-849a24a89ace">
+    <name>Short Packet test</name>
+    <attributes>
+        <attribute>
+            <name>metrics_port_kind</name>
+            <value>TESTCASE</value>
+        </attribute>
+        <attribute>
+            <name>creator</name>
+            <value>manojgangaraja</value>
+        </attribute>
+        <attribute>
+            <name>details</name>
+            <value>Test with packet data length between 3 and 10</value>
+        </attribute>
+    </attributes>
+    <assumePlanned>false</assumePlanned>
+</metricsPort>
+<metricsPort id="3ac805b5-7ea7-4c09-bab5-e004e8dc28cd">
+    <name>Random Test</name>
+    <attributes>
+        <attribute>
+            <name>metrics_port_kind</name>
+            <value>TESTCASE</value>
+        </attribute>
+        <attribute>
+            <name>creator</name>
+            <value>manojgangaraja</value>
+        </attribute>
+        <attribute>
+            <name>details</name>
+            <value>Test with random TX port, RX port, delay, and data</value>
+        </attribute>
+    </attributes>
+    <assumePlanned>false</assumePlanned>
+</metricsPort>
+<metricsPort id="d78df3c6-ddcf-4821-aa27-e62eb5312cd7">
+    <name>Back to back packet test</name>
+    <attributes>
+        <attribute>
+            <name>metrics_port_kind</name>
+            <value>TESTCASE</value>
+        </attribute>
+        <attribute>
+            <name>creator</name>
+            <value>manojgangaraja</value>
+        </attribute>
+        <attribute>
+            <name>details</name>
+            <value>Send a continuous stream of packets with zero delay between them to test throughput and buffer handling</value>
+        </attribute>
+    </attributes>
+    <assumePlanned>false</assumePlanned>
+</metricsPort>
+<metricsPort id="36c1b127-90f8-4335-a9fc-35683bf60b93">
+    <name>Backpressure test</name>
+    <attributes>
+        <attribute>
+            <name>metrics_port_kind</name>
+            <value>TESTCASE</value>
+        </attribute>
+        <attribute>
+            <name>creator</name>
+            <value>manojgangaraja</value>
+        </attribute>
+        <attribute>
+            <name>details</name>
+            <value>Test the TX interface's ability to handle backpressure when the receiver is not ready to accept new data</value>
+        </attribute>
+    </attributes>
+    <assumePlanned>false</assumePlanned>
+</metricsPort>
+                            </subElements>
+                        </section>
+                        <section id="9958fb6c-7f24-4393-9c05-f035cc08b37e">
+                            <name>TX assertion</name>
+                            <attributes>
+<attribute>
+    <name>creator</name>
+    <value>manojgangaraja</value>
+</attribute>
+                            </attributes>
+                            <subElements>
+<metricsPort id="d0a23b94-2ef9-4e2f-8d78-83fc7d59806e">
+    <name>tx_output_req is one_hot</name>
+    <attributes>
+        <attribute>
+            <name>metrics_port_kind</name>
+            <value>CHECK</value>
+        </attribute>
+        <attribute>
+            <name>creator</name>
+            <value>manojgangaraja</value>
+        </attribute>
+        <attribute>
+            <name>details</name>
+            <value>tx_outport_req is a one-hot encoded signal, and its width depends on the number of outports connected to the HTAX</value>
+        </attribute>
+    </attributes>
+    <assumePlanned>false</assumePlanned>
+</metricsPort>
+<metricsPort id="69f2ee4b-f44d-4d29-ba26-6548e2743bec">
+    <name>tx output and vc req assert</name>
+    <attributes>
+        <attribute>
+            <name>metrics_port_kind</name>
+            <value>CHECK</value>
+        </attribute>
+        <attribute>
+            <name>creator</name>
+            <value>manojgangaraja</value>
+        </attribute>
+        <attribute>
+            <name>details</name>
+            <value>tx_output_req and vc_req_asserted simultaneously</value>
+        </attribute>
+    </attributes>
+    <assumePlanned>false</assumePlanned>
+</metricsPort>
+<metricsPort id="1c55b72d-1d32-4310-82ad-5c4d8dc08eab">
+    <name>tx output and vc req deassert</name>
+    <attributes>
+        <attribute>
+            <name>metrics_port_kind</name>
+            <value>CHECK</value>
+        </attribute>
+        <attribute>
+            <name>creator</name>
+            <value>manojgangaraja</value>
+        </attribute>
+        <attribute>
+            <name>details</name>
+            <value>tx_output req and vc_req deasserted simultaneously</value>
+        </attribute>
+    </attributes>
+    <assumePlanned>false</assumePlanned>
+</metricsPort>
+<metricsPort id="1a7384b5-1d35-4f9d-9281-c85829000a84">
+    <name>SOP-EOP protocol check</name>
+    <attributes>
+        <attribute>
+            <name>metrics_port_kind</name>
+            <value>CHECK</value>
+        </attribute>
+        <attribute>
+            <name>creator</name>
+            <value>manojgangaraja</value>
+        </attribute>
+        <attribute>
+            <name>details</name>
+            <value>Asserts that a tx_eop (end of packet) signal must be preceded by a tx_sop (start of packet) and that two tx_sop signals cannot occur without a tx_eop in between.</value>
+        </attribute>
+    </attributes>
+    <assumePlanned>false</assumePlanned>
+</metricsPort>
+<metricsPort id="1006f8a8-c91f-421d-8966-f2b67f30afd6">
+    <name>Request_slash_Grant handshake</name>
+    <attributes>
+        <attribute>
+            <name>metrics_port_kind</name>
+            <value>CHECK</value>
+        </attribute>
+        <attribute>
+            <name>creator</name>
+            <value>manojgangaraja</value>
+        </attribute>
+        <attribute>
+            <name>details</name>
+            <value>Asserts that if tx_req is high, the corresponding tx_gnt must be asserted within a specified number of cycles.</value>
+        </attribute>
+    </attributes>
+    <assumePlanned>false</assumePlanned>
+</metricsPort>
+<metricsPort id="a32cb89c-d5b1-446b-9ed8-2fd3c962824c">
+    <name>No request during reset</name>
+    <attributes>
+        <attribute>
+            <name>metrics_port_kind</name>
+            <value>CHECK</value>
+        </attribute>
+        <attribute>
+            <name>creator</name>
+            <value>manojgangaraja</value>
+        </attribute>
+        <attribute>
+            <name>details</name>
+            <value>Asserts that the tx_req signal remains low while the system reset is active.</value>
+        </attribute>
+    </attributes>
+    <assumePlanned>false</assumePlanned>
+</metricsPort>
+                            </subElements>
+                        </section>
+                    </subElements>
+                </section>
+                <section id="02dc2556-6a51-4c40-97cd-fb5f1f94f450">
+                    <name>RX Interface</name>
+                    <attributes>
+                        <attribute>
+                            <name>details</name>
+                            <value>RX Interface.  Data packets are retrieved from the switch through the RX interface. The outport forwards packets to the receiving functional unit and contains an arbiter that hands out grants to the inports. It is a virtual channel aware multi request arbiter which allows to signal multiple packets of different virtual channels waiting for transaction to the receiver. The receiving functional unit needs to implement arbitration logic to determine which virtual channel to grant. The outport’s RX interface is shown in figure 6 (in specification). The receiver unit is allowed to grant several virtual channels concurrently.</value>
+                        </attribute>
+                    </attributes>
+                    <subElements>
+                        <section id="78b29018-d65e-46c4-922f-663ed2d8daa3">
+                            <name>RX testcases</name>
+                            <attributes>
+<attribute>
+    <name>creator</name>
+    <value>manojgangaraja</value>
+</attribute>
+                            </attributes>
+                            <subElements>
+<metricsPort id="6f6ca489-b146-45ec-95ee-03ecd67dd2f1">
+    <name>Simple port-port test</name>
+    <attributes>
+        <attribute>
+            <name>metrics_port_kind</name>
+            <value>TESTCASE</value>
+        </attribute>
+        <attribute>
+            <name>creator</name>
+            <value>manojgangaraja</value>
+        </attribute>
+        <attribute>
+            <name>details</name>
+            <value>Test with fixed TX port i and fixed RX port j</value>
+        </attribute>
+    </attributes>
+    <assumePlanned>false</assumePlanned>
+</metricsPort>
+<metricsPort id="118c90ea-a9f5-41ab-888d-498e24756fc8">
+    <name>Short Packet test</name>
+    <attributes>
+        <attribute>
+            <name>metrics_port_kind</name>
+            <value>TESTCASE</value>
+        </attribute>
+        <attribute>
+            <name>creator</name>
+            <value>manojgangaraja</value>
+        </attribute>
+        <attribute>
+            <name>details</name>
+            <value>Test with packet data length between 3 and 10</value>
+        </attribute>
+    </attributes>
+    <assumePlanned>false</assumePlanned>
+</metricsPort>
+<metricsPort id="d4766645-7684-445b-8ea2-7af8a67b2c31">
+    <name>Random Test</name>
+    <attributes>
+        <attribute>
+            <name>metrics_port_kind</name>
+            <value>TESTCASE</value>
+        </attribute>
+        <attribute>
+            <name>creator</name>
+            <value>manojgangaraja</value>
+        </attribute>
+        <attribute>
+            <name>details</name>
+            <value>Test with random TX port, RX port, delay, and data</value>
+        </attribute>
+    </attributes>
+    <assumePlanned>false</assumePlanned>
+</metricsPort>
+<metricsPort id="95878b5d-f874-46bd-b359-16d3ebfd1534">
+    <name>Invalid test</name>
+    <attributes>
+        <attribute>
+            <name>metrics_port_kind</name>
+            <value>TESTCASE</value>
+        </attribute>
+        <attribute>
+            <name>creator</name>
+            <value>manojgangaraja</value>
+        </attribute>
+        <attribute>
+            <name>details</name>
+            <value>Send packets with incorrect formatting (e.g., bad length, invalid header) to ensure the RX interface handles errors gracefully.</value>
+        </attribute>
+    </attributes>
+    <assumePlanned>false</assumePlanned>
+</metricsPort>
+<metricsPort id="24506fcc-acd6-4622-9e34-512acb59a900">
+    <name>Multi-VC tetcase</name>
+    <attributes>
+        <attribute>
+            <name>metrics_port_kind</name>
+            <value>TESTCASE</value>
+        </attribute>
+        <attribute>
+            <name>creator</name>
+            <value>manojgangaraja</value>
+        </attribute>
+        <attribute>
+            <name>details</name>
+            <value> Send traffic destined for multiple virtual channels (VCs) simultaneously to test the RX interface's arbitration and routing logic.</value>
+        </attribute>
+    </attributes>
+    <assumePlanned>false</assumePlanned>
+</metricsPort>
+                            </subElements>
+                        </section>
+                        <section id="9d3428ac-70a7-471b-8586-5a4a749768c5">
+                            <name>RX assertion</name>
+                            <attributes>
+<attribute>
+    <name>creator</name>
+    <value>manojgangaraja</value>
+</attribute>
+                            </attributes>
+                            <subElements>
+<metricsPort id="30db8fb1-b8e0-4b3d-8a37-ba030e5fbea5">
+    <name>rx_outputreq is one-hot</name>
+    <attributes>
+        <attribute>
+            <name>metrics_port_kind</name>
+            <value>CHECK</value>
+        </attribute>
+        <attribute>
+            <name>creator</name>
+            <value>manojgangaraja</value>
+        </attribute>
+        <attribute>
+            <name>details</name>
+            <value>rx_outport_req is a one-hot encoded signal, and its width depends on the number of outports connected to the HTAX</value>
+        </attribute>
+    </attributes>
+    <assumePlanned>false</assumePlanned>
+</metricsPort>
+<metricsPort id="48b8ebc7-b182-48ae-89e4-7b13853bd8a9">
+    <name>rx output and vc req assert</name>
+    <attributes>
+        <attribute>
+            <name>metrics_port_kind</name>
+            <value>CHECK</value>
+        </attribute>
+        <attribute>
+            <name>creator</name>
+            <value>manojgangaraja</value>
+        </attribute>
+        <attribute>
+            <name>details</name>
+            <value>rx_output_req and vc_req_asserted simultaneously</value>
+        </attribute>
+    </attributes>
+    <assumePlanned>false</assumePlanned>
+</metricsPort>
+<metricsPort id="ac45cd13-aaf8-4844-b118-58a464f3ee3e">
+    <name>rx output and vc req deassert</name>
+    <attributes>
+        <attribute>
+            <name>metrics_port_kind</name>
+            <value>CHECK</value>
+        </attribute>
+        <attribute>
+            <name>creator</name>
+            <value>manojgangaraja</value>
+        </attribute>
+        <attribute>
+            <name>details</name>
+            <value>rx_output req and vc_req deasserted simultaneously</value>
+        </attribute>
+    </attributes>
+    <assumePlanned>false</assumePlanned>
+</metricsPort>
+<metricsPort id="46155ec8-f5cd-4985-b955-9b27baa26756">
+    <name>Valid follows SOP</name>
+    <attributes>
+        <attribute>
+            <name>metrics_port_kind</name>
+            <value>CHECK</value>
+        </attribute>
+        <attribute>
+            <name>creator</name>
+            <value>manojgangaraja</value>
+        </attribute>
+        <attribute>
+            <name>details</name>
+            <value>Asserts that the rx_valid signal must be asserted on the same cycle or the cycle after rx_sop is asserted.</value>
+        </attribute>
+    </attributes>
+    <assumePlanned>false</assumePlanned>
+</metricsPort>
+<metricsPort id="c546ad8f-ccbf-4cba-8c15-9e1dda0b07ab">
+    <name>Data stability</name>
+    <attributes>
+        <attribute>
+            <name>metrics_port_kind</name>
+            <value>CHECK</value>
+        </attribute>
+        <attribute>
+            <name>creator</name>
+            <value>manojgangaraja</value>
+        </attribute>
+        <attribute>
+            <name>details</name>
+            <value> Asserts that rx_data remains stable whenever rx_valid is high.</value>
+        </attribute>
+    </attributes>
+    <assumePlanned>false</assumePlanned>
+</metricsPort>
+                            </subElements>
+                        </section>
+                    </subElements>
+                </section>
+                <section id="4240917d-5d53-4eb7-ad9f-71431c41323b">
+                    <name>Burst Mode</name>
+                    <attributes>
+                        <attribute>
+                            <name>details</name>
+                            <value>Burst Mode.  The HTAX switch supports a burst mode. When sending minimum sized packets over the HTAX, bubbles are introduced through the delay of the arbitration mechanism. To address this issue the HTAX supports burst mode. A single grant can be used to transmit multiple packets.  Each packet is framed by sot and eot signals. The grant is only released by the release_gnt signal.  The FUs need to define a maximum burst size (MBS). If a grant is given by a FU the FU must be capable to receive multiple packets as defined by the MBS. The FUs may define burst capability only for small or larger messages. The definition of the MBS and the exact behaviour is out of scope of this specification and is part of the higher layer protocol (HTOC).</value>
+                        </attribute>
+                    </attributes>
+                    <subElements>
+                        <metricsPort id="71d53299-216e-484c-8d3e-d166fe08ca23">
+                            <name>Testcases to verify Burst Mode</name>
+                            <attributes>
+<attribute>
+    <name>metrics_port_kind</name>
+    <value>TESTCASE</value>
+</attribute>
+<attribute>
+    <name>details</name>
+    <value>Testcases to verify Burst Mode</value>
+</attribute>
+                            </attributes>
+                            <assumePlanned>false</assumePlanned>
+                        </metricsPort>
+                        <metricsPort id="7bb55f66-0e92-4233-96e8-a49eeb7b0755">
+                            <name>Assertions_slash_Checkers for Burst Mode</name>
+                            <attributes>
+<attribute>
+    <name>metrics_port_kind</name>
+    <value>CHECK</value>
+</attribute>
+<attribute>
+    <name>details</name>
+    <value>Assertions/Checkers for Burst Mode</value>
+</attribute>
+                            </attributes>
+                            <assumePlanned>false</assumePlanned>
+                        </metricsPort>
+                    </subElements>
+                </section>
+                <section id="4f1bf47b-92db-479e-b9d7-12c4e15cff1f">
+                    <name>HTOC Protocol</name>
+                    <attributes>
+                        <attribute>
+                            <name>details</name>
+                            <value>HTOC Protocol</value>
+                        </attribute>
+                    </attributes>
+                    <subElements>
+                        <metricsPort id="216fa71a-c9a9-4950-b3ff-a50ecc05b0f2">
+                            <name>Testcases to verify HTOC Protocol</name>
+                            <attributes>
+<attribute>
+    <name>metrics_port_kind</name>
+    <value>TESTCASE</value>
+</attribute>
+<attribute>
+    <name>details</name>
+    <value>Testcases to verify HTOC Protocol</value>
+</attribute>
+                            </attributes>
+                            <assumePlanned>false</assumePlanned>
+                        </metricsPort>
+                        <metricsPort id="ed5b6b7c-7429-420e-a1ab-da4e0e01d389">
+                            <name>Assertions_slash_Checkers for HTOC Protocol</name>
+                            <attributes>
+<attribute>
+    <name>metrics_port_kind</name>
+    <value>CHECK</value>
+</attribute>
+<attribute>
+    <name>details</name>
+    <value>Assertions/Checkers for HTOC Protocol</value>
+</attribute>
+                            </attributes>
+                            <assumePlanned>false</assumePlanned>
+                        </metricsPort>
+                    </subElements>
+                </section>
+                <section id="5b297e98-4cdb-481d-bf45-7b6276cab4fc">
+                    <name>Functional Coverage</name>
+                    <subElements>
+                        <metricsPort id="0af2d03c-bf6b-4a6d-96e9-5ef1b49ff847">
+                            <name>System Interface</name>
+                            <attributes>
+<attribute>
+    <name>metrics_port_kind</name>
+    <value>COVERAGE</value>
+</attribute>
+                            </attributes>
+                            <assumePlanned>false</assumePlanned>
+                        </metricsPort>
+                        <metricsPort id="2bf9fd22-4c32-4b65-99e8-eec1d3e904bf">
+                            <name>Burst Mode</name>
+                            <attributes>
+<attribute>
+    <name>metrics_port_kind</name>
+    <value>COVERAGE</value>
+</attribute>
+                            </attributes>
+                            <assumePlanned>false</assumePlanned>
+                        </metricsPort>
+                        <metricsPort id="d4f6417d-154b-490b-ade5-50c45f7a63b7">
+                            <name>HTOC Protocol</name>
+                            <attributes>
+<attribute>
+    <name>metrics_port_kind</name>
+    <value>COVERAGE</value>
+</attribute>
+                            </attributes>
+                            <assumePlanned>false</assumePlanned>
+                        </metricsPort>
+                        <section id="34f9d0ed-a171-477b-abdc-c229a08b9f04">
+                            <name>TX coverage</name>
+                            <attributes>
+<attribute>
+    <name>creator</name>
+    <value>manojgangaraja</value>
+</attribute>
+                            </attributes>
+                            <subElements>
+<metricsPort id="41d0ab21-8757-4091-88c0-e9bdaa681b73">
+    <name>In port</name>
+    <attributes>
+        <attribute>
+            <name>metrics_port_kind</name>
+            <value>COVERAGE</value>
+        </attribute>
+        <attribute>
+            <name>creator</name>
+            <value>manojgangaraja</value>
+        </attribute>
+        <attribute>
+            <name>details</name>
+            <value>Tx or sender port 0,1,2,3</value>
+        </attribute>
+    </attributes>
+    <assumePlanned>false</assumePlanned>
+</metricsPort>
+<metricsPort id="60700836-4207-4968-9e7b-3e951549d199">
+    <name>Virtual channel</name>
+    <attributes>
+        <attribute>
+            <name>metrics_port_kind</name>
+            <value>COVERAGE</value>
+        </attribute>
+        <attribute>
+            <name>creator</name>
+            <value>manojgangaraja</value>
+        </attribute>
+        <attribute>
+            <name>details</name>
+            <value>Covers all legal virtual channel of transmission</value>
+        </attribute>
+    </attributes>
+    <assumePlanned>false</assumePlanned>
+</metricsPort>
+<metricsPort id="a4610ee7-4802-4c4b-b83d-6a31194c4eca">
+    <name>Inter packet delay</name>
+    <attributes>
+        <attribute>
+            <name>metrics_port_kind</name>
+            <value>COVERAGE</value>
+        </attribute>
+        <attribute>
+            <name>creator</name>
+            <value>manojgangaraja</value>
+        </attribute>
+        <attribute>
+            <name>details</name>
+            <value>Cover various delay values between packets (e.g., 0 cycles, 1-10 cycles, &gt;10 cycles).</value>
+        </attribute>
+    </attributes>
+    <assumePlanned>false</assumePlanned>
+</metricsPort>
+                            </subElements>
+                        </section>
+                        <section id="3273f38d-ff47-4f3c-8ce3-70f7c5d7e0cd">
+                            <name>RX coverage</name>
+                            <attributes>
+<attribute>
+    <name>creator</name>
+    <value>manojgangaraja</value>
+</attribute>
+                            </attributes>
+                            <subElements>
+<metricsPort id="4976a1be-64c6-415b-b09b-1dee41996155">
+    <name>out port</name>
+    <attributes>
+        <attribute>
+            <name>metrics_port_kind</name>
+            <value>COVERAGE</value>
+        </attribute>
+        <attribute>
+            <name>creator</name>
+            <value>manojgangaraja</value>
+        </attribute>
+        <attribute>
+            <name>details</name>
+            <value>Rx or receiver port 0,1,2,3</value>
+        </attribute>
+    </attributes>
+    <assumePlanned>false</assumePlanned>
+</metricsPort>
+                            </subElements>
+                        </section>
+                    </subElements>
+                </section>
+                <section id="43bb3975-9761-4d77-b807-672c5db65765">
+                    <name>Code Coverage</name>
+                    <subElements>
+                        <metricsPort id="746c20c5-a17a-48b8-86cc-f43dc2a64d9b">
+                            <name>Block</name>
+                            <attributes>
+<attribute>
+    <name>metrics_port_kind</name>
+    <value>COVERAGE</value>
+</attribute>
+                            </attributes>
+                            <assumePlanned>false</assumePlanned>
+                        </metricsPort>
+                        <metricsPort id="ab696778-e18c-40b8-80ec-008586a3b52d">
+                            <name>Expression</name>
+                            <attributes>
+<attribute>
+    <name>metrics_port_kind</name>
+    <value>COVERAGE</value>
+</attribute>
+                            </attributes>
+                            <assumePlanned>false</assumePlanned>
+                        </metricsPort>
+                        <metricsPort id="ac7d9e99-75a7-4e7d-8133-9416925512c1">
+                            <name>Toggle</name>
+                            <attributes>
+<attribute>
+    <name>metrics_port_kind</name>
+    <value>COVERAGE</value>
+</attribute>
+                            </attributes>
+                            <assumePlanned>false</assumePlanned>
+                        </metricsPort>
+                        <metricsPort id="eab0ff00-c3c0-472d-b128-b2f0d79c8228">
+                            <name>FSM</name>
+                            <attributes>
+<attribute>
+    <name>metrics_port_kind</name>
+    <value>COVERAGE</value>
+</attribute>
+                            </attributes>
+                            <assumePlanned>false</assumePlanned>
+                        </metricsPort>
+                    </subElements>
+                </section>
+            </subElements>
+        </section>
+    </rootElements>
+</vplanx:plan>

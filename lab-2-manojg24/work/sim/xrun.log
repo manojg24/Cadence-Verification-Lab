@@ -1,0 +1,66 @@
+xrun: 22.03-s012: (c) Copyright 1995-2023 Cadence Design Systems, Inc.
+TOOL:	xrun	22.03-s012: Started on Sep 13, 2025 at 19:19:54 CDT
+xrun
+	-f run.f
+		+access+rwc
+		-timescale 1ns/1ns
+		../design/cache_mem.sv
+		../tb/cache_mem_tb.sv
+		../tb/cache_mem_intf.sv
+		../tb/top.sv
+Recompiling... reason: file '../design/cache_mem.sv' is newer than expected.
+	expected: Sat Sep 13 18:56:52 2025
+	actual:   Sat Sep 13 19:19:50 2025
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		top
+  cmbus.mem_read(5); // cache hit
+               |
+xmelab: *W,FAAOP1 (../tb/cache_mem_tb.sv,12|15): task or function call does not specify all formal output arguments [10.2.2][10.3(IEEE)].
+task mem_read (input logic [4:0] addr_in, output logic [7:0] data_rd);
+                                                                   |
+xmelab: *W,FAAOP2 (../tb/cache_mem_intf.sv,35|67): Formal output argument 'data_rd' is absent in the task or function call identified by the previous error message [10.2.2][10.3(IEEE)].
+  cmbus.mem_read(3); //cache hit
+               |
+xmelab: *W,FAAOP1 (../tb/cache_mem_tb.sv,16|15): task or function call does not specify all formal output arguments [10.2.2][10.3(IEEE)].
+task mem_read (input logic [4:0] addr_in, output logic [7:0] data_rd);
+                                                                   |
+xmelab: *W,FAAOP2 (../tb/cache_mem_intf.sv,35|67): Formal output argument 'data_rd' is absent in the task or function call identified by the previous error message [10.2.2][10.3(IEEE)].
+  cmbus.mem_read(5); // Reading again from 5 to check cache miss, getting from main memory
+               |
+xmelab: *W,FAAOP1 (../tb/cache_mem_tb.sv,18|15): task or function call does not specify all formal output arguments [10.2.2][10.3(IEEE)].
+task mem_read (input logic [4:0] addr_in, output logic [7:0] data_rd);
+                                                                   |
+xmelab: *W,FAAOP2 (../tb/cache_mem_intf.sv,35|67): Formal output argument 'data_rd' is absent in the task or function call identified by the previous error message [10.2.2][10.3(IEEE)].
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 3       3
+		Interfaces:              1       1
+		Registers:              17      17
+		Scalar wires:            6       -
+		Vectored wires:          4       -
+		Always blocks:           2       2
+		Initial blocks:          4       4
+		Pseudo assignments:      7       7
+		Simulation timescale:  1ns
+	Writing initial simulation snapshot: worklib.top:sv
+Loading snapshot worklib.top:sv .................... Done
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xcelium> source /opt/coe/cadence/XCELIUM/tools/xcelium/files/xmsimrc
+xcelium> run
+Asynch Memory Reset
+Write Address : 5 with data : 7
+Write Address : 5 with data : 5
+Read Address : 5 with data : 5
+Write Address : 3 with data : 1
+Read Address : 3 with data : 1
+Read Address : 5 with data : 5
+Simulation complete via $finish(1) at time 110 NS + 1
+../tb/cache_mem_tb.sv:20 	$finish;
+xcelium> exit
+TOOL:	xrun	22.03-s012: Exiting on Sep 13, 2025 at 19:19:55 CDT  (total: 00:00:01)

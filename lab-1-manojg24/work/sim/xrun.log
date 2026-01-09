@@ -1,0 +1,88 @@
+xrun: 22.03-s012: (c) Copyright 1995-2023 Cadence Design Systems, Inc.
+TOOL:	xrun	22.03-s012: Started on Sep 09, 2025 at 22:59:19 CDT
+xrun
+	-f run.f
+		+access+rwc
+		-timescale 1ns/1ns
+		../design/simple_mem.sv
+		../tb/simple_mem_tb.sv
+Recompiling... reason: file '../tb/simple_mem_tb.sv' is newer than expected.
+	expected: Tue Sep  9 22:54:15 2025
+	actual:   Tue Sep  9 22:58:35 2025
+file: ../tb/simple_mem_tb.sv
+	module worklib.mem_test:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		mem_test
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.mem_test:sv <0x09d8d22a>
+			streams:  22, words: 23451
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 2       2
+		Registers:              15      15
+		Scalar wires:            4       -
+		Vectored wires:          3       -
+		Always blocks:           2       2
+		Initial blocks:          2       2
+		Pseudo assignments:      6       6
+		Simulation timescale:  1ns
+	Writing initial simulation snapshot: worklib.mem_test:sv
+Loading snapshot worklib.mem_test:sv .................... Done
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xcelium> source /opt/coe/cadence/XCELIUM/tools/xcelium/files/xmsimrc
+xcelium> run
+Asynch Memory Reset
+Addr 0 after reset: data_out=x (expected 00)
+Addr 1 after reset: data_out=0 (expected 00)
+Addr 2 after reset: data_out=0 (expected 00)
+Addr 3 after reset: data_out=0 (expected 00)
+Addr 4 after reset: data_out=0 (expected 00)
+Addr 5 after reset: data_out=0 (expected 00)
+Addr 6 after reset: data_out=0 (expected 00)
+Addr 7 after reset: data_out=0 (expected 00)
+Addr 8 after reset: data_out=0 (expected 00)
+Addr 9 after reset: data_out=0 (expected 00)
+Addr 10 after reset: data_out=0 (expected 00)
+Addr 11 after reset: data_out=0 (expected 00)
+Addr 12 after reset: data_out=0 (expected 00)
+Addr 13 after reset: data_out=0 (expected 00)
+Addr 14 after reset: data_out=0 (expected 00)
+Addr 15 after reset: data_out=0 (expected 00)
+Addr 16 after reset: data_out=0 (expected 00)
+Addr 17 after reset: data_out=0 (expected 00)
+Addr 18 after reset: data_out=0 (expected 00)
+Addr 19 after reset: data_out=0 (expected 00)
+Addr 20 after reset: data_out=0 (expected 00)
+Addr 21 after reset: data_out=0 (expected 00)
+Addr 22 after reset: data_out=0 (expected 00)
+Addr 23 after reset: data_out=0 (expected 00)
+Addr 24 after reset: data_out=0 (expected 00)
+Addr 25 after reset: data_out=0 (expected 00)
+Addr 26 after reset: data_out=0 (expected 00)
+Addr 27 after reset: data_out=0 (expected 00)
+Addr 28 after reset: data_out=0 (expected 00)
+Addr 29 after reset: data_out=0 (expected 00)
+Addr 30 after reset: data_out=0 (expected 00)
+Addr 31 after reset: data_out=0 (expected 00)
+ERROR: memory[5] expected=05, got=0
+ERROR: memory[5] expected=05, got=1
+ERROR: memory[5] expected=05, got=2
+ERROR: memory[5] expected=05, got=3
+ERROR: memory[5] expected=05, got=4
+OK: memory[5] correctly holds 05
+ERROR: memory[5] expected=05, got=6
+ERROR: memory[5] expected=05, got=7
+DEBUG: Wrote 0x05 to addr 5, read back 7
+DEBUG: Wrote 0x55 to addr 5, read back 5 (expected 0x55)
+BUG DETECTED: Memory is XORing instead of overwriting!
+Simulation complete via $finish(1) at time 1910 NS + 0
+../tb/simple_mem_tb.sv:102   $finish; 
+xcelium> exit
+TOOL:	xrun	22.03-s012: Exiting on Sep 09, 2025 at 22:59:20 CDT  (total: 00:00:01)

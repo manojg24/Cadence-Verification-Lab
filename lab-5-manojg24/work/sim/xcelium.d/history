@@ -1,0 +1,11 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(01Oct2025:20:34:31):( xrun -f run.f )
+s2::(01Oct2025:20:36:22):( xrun -f run.f )
+s3::(01Oct2025:20:45:08):( xrun -f run.f mix_sequence_test )
+s4::(01Oct2025:21:17:27):( xrun -f run.f +UVM_TESTNAME=mix_sequence_test )
+s5::(01Oct2025:21:25:58):( xrun -f run.f +UVM_TESTNAME=mix_sequence_test )
+s6::(01Oct2025:21:31:17):( xrun -f run.f +UVM_TESTNAME=mix_sequence_test )
+s7::(01Oct2025:21:34:09):( xrun -f run.f +UVM_TESTNAME=mix_sequence_test )

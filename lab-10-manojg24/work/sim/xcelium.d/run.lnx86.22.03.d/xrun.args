@@ -1,0 +1,9 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-f
+run_vm.f
++UVM_TESTNAME=simple_port_port_test
+-define
+TEST7

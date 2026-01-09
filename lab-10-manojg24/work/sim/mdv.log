@@ -1,0 +1,40 @@
+[ERROR] 2025-12-04 01:43:37 [com.cadence.mdv.services.ClientLinkToServerImpl] [main] - No XLM Home defined in the server project
+[INFO ] 2025-12-04 01:43:43 [com.cadence.mdv.imc.Main] [main] - Binding debug tools http on port: 41573
+[ERROR] 2025-12-04 16:52:58 [com.cadence.mdv.services.ClientLinkToServerImpl] [main] - No XLM Home defined in the server project
+[INFO ] 2025-12-04 16:53:05 [com.cadence.mdv.imc.Main] [main] - Binding debug tools http on port: 41519
+[ERROR] 2025-12-04 17:12:42 [com.cadence.mdv.services.ClientLinkToServerImpl] [main] - No XLM Home defined in the server project
+[INFO ] 2025-12-04 17:12:48 [com.cadence.mdv.imc.Main] [main] - Binding debug tools http on port: 37623
+[ERROR] 2025-12-09 01:10:18 [com.cadence.mdv.services.ClientLinkToServerImpl] [main] - No XLM Home defined in the server project
+[INFO ] 2025-12-09 01:10:24 [com.cadence.mdv.imc.Main] [main] - Binding debug tools http on port: 39131
+[ERROR] 2025-12-09 01:41:31 [com.cadence.ufi.gui.util.DefaultExceptionHandler] [AWT-EventQueue-0] - Tool has encountered an internal error.<br>Please send: /home/grads/m/manojgangaraja/lab-10-manojg24/work/sim/mdv.log to support@cadence.com<br>or contact Cadence Support.:java.nio.channels.OverlappingFileLockException
+[ERROR] 2025-12-09 01:41:31 [com.cadence.ufi.gui.util.DefaultExceptionHandler] [AWT-EventQueue-0] - Tool has encountered an internal error.<br>Please send: /home/grads/m/manojgangaraja/lab-10-manojg24/work/sim/mdv.log to support@cadence.com<br>or contact Cadence Support.
+java.nio.channels.OverlappingFileLockException: null
+	at java.base/sun.nio.ch.FileLockTable.checkList(FileLockTable.java:229)
+	at java.base/sun.nio.ch.FileLockTable.add(FileLockTable.java:123)
+	at java.base/sun.nio.ch.FileChannelImpl.tryLock(FileChannelImpl.java:1297)
+	at java.base/java.nio.channels.FileChannel.tryLock(FileChannel.java:1191)
+	at com.cadence.mdv.vplanDef.PlanDefinitionWriter.writePlan(PlanDefinitionWriter.java:57)
+	at com.cadence.mdv.vplanServices.VPlanService.savePlan(VPlanService.java:264)
+	at com.cadence.mdv.vplanTreeHandler.PlanContext.saveInternal(PlanContext.java:1372)
+	at com.cadence.mdv.vplanTreeHandler.PlanContext.save(PlanContext.java:1132)
+	at com.cadence.mdv.vplanTreeHandler.PlanContext.save(PlanContext.java:1517)
+	at com.cadence.mdv.MDVContextServicesImpl.savePlan(MDVContextServicesImpl.java:1810)
+	at com.cadence.mdv.gui.data.NGVPlannerProxy.saveVplanFile(NGVPlannerProxy.java:241)
+	at com.cadence.mdv.gui.activities.vPlanner.NGVPlannerProcessManager$8.doWork(NGVPlannerProcessManager.java:1003)
+	at com.cadence.mdv.gui.activities.vPlanner.NGVPlannerProcessManager$8.doWork(NGVPlannerProcessManager.java:989)
+	at com.cadence.ufi.gui.worker.GUFITaskExecutor.doInBackground(GUFITaskExecutor.java:69)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[ERROR] 2025-12-09 02:32:16 [com.cadence.mdv.bl.impl.core.blNative.MDVEntitySimpleFallbackHandler] [AWT-EventQueue-0] - Slim entity had to fallback because someone asked about REQUIRED_PROOF_BOUND
+[ERROR] 2025-12-09 03:14:28 [com.cadence.mdv.services.ClientLinkToServerImpl] [main] - No XLM Home defined in the server project
+[INFO ] 2025-12-09 03:14:34 [com.cadence.mdv.imc.Main] [main] - Binding debug tools http on port: 33965
+[ERROR] 2025-12-09 03:18:22 [com.cadence.mdv.services.ClientLinkToServerImpl] [main] - No XLM Home defined in the server project
+[INFO ] 2025-12-09 03:18:28 [com.cadence.mdv.imc.Main] [main] - Binding debug tools http on port: 45475
+[ERROR] 2025-12-10 00:41:22 [com.cadence.mdv.services.ClientLinkToServerImpl] [main] - No XLM Home defined in the server project
+[INFO ] 2025-12-10 00:41:28 [com.cadence.mdv.imc.Main] [main] - Binding debug tools http on port: 40323

@@ -1,0 +1,214 @@
+xrun: 22.03-s012: (c) Copyright 1995-2023 Cadence Design Systems, Inc.
+TOOL:	xrun	22.03-s012: Started on Sep 19, 2025 at 11:44:05 CDT
+xrun
+	-f run.f
+		+access+rwc
+		-timescale 1ns/1ps
+		-input waves.tcl
+		-uvmhome /opt/coe/cadence/XCELIUM/tools/methodology/UVM/CDNS-1.1d/sv
+		+UVM_VERBOSITY=UVM_LOW
+		-f file_list.f
+			-incdir ../tb
+			../tb/top.sv
+
+   User defined plus("+") options:
+	+UVM_VERBOSITY=UVM_LOW
+
+file: ../tb/top.sv
+	module worklib.top:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		top
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.top:sv <0x6d47a01c>
+			streams:  26, words: 60333
+		worklib.cdns_uvm_pkg:sv <0x19092d81>
+			streams: 172, words: 230195
+		worklib.cdns_uvmapi:svp <0x6674c581>
+			streams:  27, words: 25199
+		worklib.cdns_assert2uvm_pkg:sv <0x4e0dcde1>
+			streams:   3, words:  1338
+		worklib.uvm_pkg:sv <0x0793b983>
+			streams: 4534, words: 5782379
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                       Instances  Unique
+		Modules:                       1       1
+		Verilog packages:              4       4
+		Registers:                 12948   10069
+		Named events:                  4      12
+		Initial blocks:              254     148
+		Parallel blocks:              26      27
+		Assertions:                    2       2
+		SV Class declarations:       190     304
+		SV Class specializations:    339     339
+		Simulation timescale:        1ps
+	Writing initial simulation snapshot: worklib.top:sv
+Loading snapshot worklib.top:sv .................... Done
+SVSEED default: 1
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xcelium> source /opt/coe/cadence/XCELIUM/tools/xcelium/files/xmsimrc
+xcelium> source /opt/coe/cadence/XCELIUM/tools/methodology/UVM/CDNS-1.1d/sv/files/tcl/uvm_sim.tcl
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create top -all -memories -depth all -tasks -functions -all -database waves -waveform
+xmsim: *W,PRFRTNEV: (-FUNCTION) Database must be opened in -EVENT mode to capture calling scope data.
+xmsim: *W,PRLDYN: The design contains dynamic objects. The "-all" option excludes dynamic objects to improve performance. To enable probing of dynamic objects the "-all -dynamic" options should be added to the probe command.
+Created probe 1
+xcelium> 
+xcelium> run
+----------------------------------------------------------------
+CDNS-UVM-1.1d (22.03-s012)
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+--- Creating packet with new() ---
+------------------------------------------------------
+Name           Type           Size  Value             
+------------------------------------------------------
+htax_packet_c  htax_packet_c  -     @2576             
+  delay        integral       32    'hb               
+  dest_port    integral       32    'h1               
+  vc           integral       2     'h2               
+  length       integral       32    'h26              
+  data         da(integral)   38    -                 
+    [0]        integral       64    'h716c2bf815734b28
+    [1]        integral       64    'h27587f7f407da323
+    [2]        integral       64    'h4ad307f880a6fc0e
+    [3]        integral       64    'hb02a7e7cd4c10509
+    [4]        integral       64    'hdcd782aac93e22cd
+    ...        ...            ...   ...               
+    [33]       integral       64    'h7f5ddb57ebbe8a81
+    [34]       integral       64    'h879d9178cb2d6dea
+    [35]       integral       64    'h1c4e2db67c33331f
+    [36]       integral       64    'hc0373ec5db484f62
+    [37]       integral       64    'ha0254e92b37ae17f
+------------------------------------------------------
+@5000: Driving data[0] = 716c2bf815734b28 to port 0010
+@15000: Driving data[1] = 27587f7f407da323 to port 0010
+@25000: Driving data[2] = 4ad307f880a6fc0e to port 0010
+@35000: Driving data[3] = b02a7e7cd4c10509 to port 0010
+@45000: Driving data[4] = dcd782aac93e22cd to port 0010
+@55000: Driving data[5] = 4f5d799550c4cc68 to port 0010
+@65000: Driving data[6] = 5ce8105defa5f876 to port 0010
+@75000: Driving data[7] = bf2bc4622e7c5a0b to port 0010
+@85000: Driving data[8] = 39dfb99c9bd779ff to port 0010
+@95000: Driving data[9] = 7d8acee2b0d1eac8 to port 0010
+@105000: Driving data[10] = f24135f5791c3599 to port 0010
+@115000: Driving data[11] = 85efc1e73d36b590 to port 0010
+@125000: Driving data[12] = b46f2b605fe05b71 to port 0010
+@135000: Driving data[13] = 66f0fbaa71a0e67e to port 0010
+@145000: Driving data[14] = 04c8daffffeca544 to port 0010
+@155000: Driving data[15] = dc9e9d2b52956f66 to port 0010
+@165000: Driving data[16] = f6aa7ca1bc9c6929 to port 0010
+@175000: Driving data[17] = e0b1dda63c7e39ab to port 0010
+@185000: Driving data[18] = d14345ffc19352d4 to port 0010
+@195000: Driving data[19] = 360f4d7c766701c2 to port 0010
+@205000: Driving data[20] = b88983962973c715 to port 0010
+@215000: Driving data[21] = 2a360a7dcdd2f7e9 to port 0010
+@225000: Driving data[22] = 94c24dd77c050e82 to port 0010
+@235000: Driving data[23] = 032e5bcc7a3e6c7b to port 0010
+@245000: Driving data[24] = 9bcdb7b700adb13d to port 0010
+@255000: Driving data[25] = 5f4978e6f3372679 to port 0010
+@265000: Driving data[26] = f52bea90c0cd4648 to port 0010
+@275000: Driving data[27] = 2171e4feed83312d to port 0010
+@285000: Driving data[28] = c79a782578eaa757 to port 0010
+@295000: Driving data[29] = 80f6cada7c68afc7 to port 0010
+@305000: Driving data[30] = 88855d77aed77ecc to port 0010
+@315000: Driving data[31] = 214bed79801aac9a to port 0010
+@325000: Driving data[32] = c5344198f7c172c9 to port 0010
+@335000: Driving data[33] = 7f5ddb57ebbe8a81 to port 0010
+@345000: Driving data[34] = 879d9178cb2d6dea to port 0010
+@355000: Driving data[35] = 1c4e2db67c33331f to port 0010
+@365000: Driving data[36] = c0373ec5db484f62 to port 0010
+@375000: Driving data[37] = a0254e92b37ae17f to port 0010
+@385000: Drive finished. Assigning port and data to 'x'
+
+--- Creating packet with UVM Factory ---
+----------------------------------------------------
+Name         Type           Size  Value             
+----------------------------------------------------
+fac_pkt      htax_packet_c  -     @2650             
+  delay      integral       32    'hc               
+  dest_port  integral       32    'h1               
+  vc         integral       2     'h3               
+  length     integral       32    'h16              
+  data       da(integral)   22    -                 
+    [0]      integral       64    'hcc1fa8b244cdb8c 
+    [1]      integral       64    'h80031c9339b6467f
+    [2]      integral       64    'h81e606e033d22945
+    [3]      integral       64    'hf39a7dbbb2b11330
+    [4]      integral       64    'h12520518211ea0ad
+    ...      ...            ...   ...               
+    [17]     integral       64    'h146626388d74355 
+    [18]     integral       64    'hf229cda8247f6677
+    [19]     integral       64    'h4540ee46488e9557
+    [20]     integral       64    'h6ecb2ff4a20fed99
+    [21]     integral       64    'h82ca8a57cdd5a5dc
+----------------------------------------------------
+@395000: Driving data[0] = 0cc1fa8b244cdb8c to port 0010
+@405000: Driving data[1] = 80031c9339b6467f to port 0010
+@415000: Driving data[2] = 81e606e033d22945 to port 0010
+@425000: Driving data[3] = f39a7dbbb2b11330 to port 0010
+@435000: Driving data[4] = 12520518211ea0ad to port 0010
+@445000: Driving data[5] = ceba143fb7d8c583 to port 0010
+@455000: Driving data[6] = 00278e4ec356fa53 to port 0010
+@465000: Driving data[7] = c38e9804ab61d0b4 to port 0010
+@475000: Driving data[8] = e26e441cbed09a9c to port 0010
+@485000: Driving data[9] = 3c9b63b5f80a1393 to port 0010
+@495000: Driving data[10] = d34a6999e691f50f to port 0010
+@505000: Driving data[11] = e26ba97e50846447 to port 0010
+@515000: Driving data[12] = 4da87f3df7297522 to port 0010
+@525000: Driving data[13] = 202537c7d01ccf8b to port 0010
+@535000: Driving data[14] = fb5c9e363e5aa9ce to port 0010
+@545000: Driving data[15] = f58149e86777f4a5 to port 0010
+@555000: Driving data[16] = ce640d9b81102802 to port 0010
+@565000: Driving data[17] = 0146626388d74355 to port 0010
+@575000: Driving data[18] = f229cda8247f6677 to port 0010
+@585000: Driving data[19] = 4540ee46488e9557 to port 0010
+@595000: Driving data[20] = 6ecb2ff4a20fed99 to port 0010
+@605000: Driving data[21] = 82ca8a57cdd5a5dc to port 0010
+@615000: Drive finished. Assigning port and data to 'x'
+
+#### Factory Configuration (*)
+
+  No instance or type overrides are registered with this factory
+
+All types registered with the factory: 37 total
+(types without type names will not be printed)
+
+  Type Name
+  ---------
+  htax_packet_c
+(*) Types with no associated type name will be printed as <unknown>
+
+####
+
+Simulation complete via $finish(1) at time 625 NS + 0
+../tb/top.sv:46 	#10 $finish;
+xcelium> exit
+TOOL:	xrun	22.03-s012: Exiting on Sep 19, 2025 at 11:44:08 CDT  (total: 00:00:03)

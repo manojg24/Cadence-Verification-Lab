@@ -1,0 +1,7 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-f
+run.f
++UVM_TESTNAME=mix_sequence_test

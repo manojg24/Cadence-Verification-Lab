@@ -1,0 +1,6 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(13Nov2025:23:03:38):( xrun -f run.f +UVM_TESTNAME=simple_random_test )
+s2::(13Nov2025:23:15:43):( xrun -f run.f +UVM_TESTNAME=simple_random_test )

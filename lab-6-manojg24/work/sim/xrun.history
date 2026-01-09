@@ -1,0 +1,1 @@
+s1(23Oct2025:19:50:54):  xrun -f run.f +UVM_TESTNAME=simple_random_test 
