@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SETTINGS_DOC>
+   <com.cadence.ufi.gui.workspace.GUFIPrefSettings VERSION="0">
+      <pref name="DELETE_CHECKBOX_STATUS" value="false"/>
+      <pref name="DELETE_CORRELATED_SESSIONS_CHECKBOX_STATUS" value="false"/>
+      <pref name="PLANNER_VPLAN_CONTEXT_SHOW_TOGGLES" value="false"/>
+      <pref name="Workspace.AutoSave" value="true"/>
+      <pref name="Workspace.sideBar.sideBar.prevSize" value="209"/>
+      <pref name="Workspace.sideBar.sideBar.state" value="true"/>
+      <pref name="Workspace.sideBar.state" value="true"/>
+      <pref name="plannerMapMetricsSplitterdividerLocation" value="629"/>
+      <pref name="vManager | 192.168.2.4:8081 |Workspace.gdmvMainFrame.height"
+            value="1009"/>
+      <pref name="vManager | 192.168.2.4:8081 |Workspace.gdmvMainFrame.left"
+            value="23"/>
+      <pref name="vManager | 192.168.2.4:8081 |Workspace.gdmvMainFrame.save_window_size_and_location"
+            value="true"/>
+      <pref name="vManager | 192.168.2.4:8081 |Workspace.gdmvMainFrame.top"
+            value="0"/>
+      <pref name="vManager | 192.168.2.4:8081 |Workspace.gdmvMainFrame.width"
+            value="1920"/>
+      <pref name="vManager | 192.168.2.4:8081 |Workspace.gdmvMainFrame.windowState"
+            value="0"/>
+   </com.cadence.ufi.gui.workspace.GUFIPrefSettings>
+</SETTINGS_DOC>

@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SETTINGS_DOC>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <VPLAN_SUMMARY VERSION="0">
+      <Table table="vPlanMappedItems">
+         <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+         <Attribute name="UNR" order="1" width="20"/>
+         <Attribute name="UFIAttributes.name" order="2" width="250"/>
+         <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                    order="3"
+                    width="110"/>
+         <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+      </Table>
+      <Table table="vPlanRunsElementsTable">
+         <Attribute name="UFIAttributes.name" order="0" width="250"/>
+         <Attribute name="srft.index" order="1" width="39"/>
+         <Attribute name="srft.status" order="2" width="150"/>
+         <Attribute name="srft.duration" order="3" width="55"/>
+      </Table>
+      <Table table="vPlanMappedAssertions">
+         <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+         <Attribute name="UNR" order="1" width="20"/>
+         <Attribute name="UFIAttributes.name" order="2" width="250"/>
+         <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                    order="3"
+                    width="110"/>
+         <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+         <Attribute name="CoverageAttributes.ASSERTION_STATUS_GRADE"
+                    order="5"
+                    width="78"/>
+      </Table>
+      <Table table="vPlanRunsElementsEntitiesBoxTable">
+         <Attribute name="UFIAttributes.name" order="0" width="250"/>
+         <Attribute name="srft.index" order="1" width="39"/>
+         <Attribute name="srft.status" order="2" width="150"/>
+         <Attribute name="srft.duration" order="3" width="55"/>
+         <Attribute name="UFIAttributes.enclosing_entity" order="4" width="350"/>
+      </Table>
+      <Table table="vPlanTreeTableBox">
+         <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+         <Attribute name="UNR" order="1" width="20"/>
+         <Attribute name="UFIAttributes.name" order="2" width="371"/>
+         <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                    order="3"
+                    width="232"/>
+         <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="187"/>
+         <Attribute name="CoverageAttributes.ASSERTION_STATUS_GRADE"
+                    order="5"
+                    width="199"/>
+      </Table>
+      <Table table="vPlanSubElementsTable">
+         <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+         <Attribute name="UNR" order="1" width="20"/>
+         <Attribute name="UFIAttributes.name" order="2" width="267"/>
+         <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                    order="3"
+                    width="128"/>
+         <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="83"/>
+         <Attribute name="CoverageAttributes.ASSERTION_STATUS_GRADE"
+                    order="5"
+                    width="95"/>
+      </Table>
+      <Table table="vPlanMappedCoverGroups">
+         <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+         <Attribute name="UNR" order="1" width="20"/>
+         <Attribute name="UFIAttributes.name" order="2" width="250"/>
+         <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                    order="3"
+                    width="110"/>
+         <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+      </Table>
+      <Table table="vPlanBuckets">
+         <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+         <Attribute name="UNR" order="1" width="20"/>
+         <Attribute name="UFIAttributes.name" order="2" width="250"/>
+         <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                    order="3"
+                    width="110"/>
+         <Attribute name="CoverageAttributes.COUNT" order="4" width="39"/>
+      </Table>
+      <Table table="vPlanMetricItemsTree">
+         <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+         <Attribute name="UNR" order="1" width="20"/>
+         <Attribute name="UFIAttributes.name" order="2" width="299"/>
+         <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                    order="3"
+                    width="159"/>
+         <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="115"/>
+      </Table>
+      <Table table="vPlanMappedToggle">
+         <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+         <Attribute name="UNR" order="1" width="20"/>
+         <Attribute name="UFIAttributes.name" order="2" width="250"/>
+         <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                    order="3"
+                    width="110"/>
+         <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+         <Attribute name="UFIAttributes.enclosing_entity" order="5" width="350"/>
+      </Table>
+      <Table table="vPlanMappedElements">
+         <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+         <Attribute name="UNR" order="1" width="20"/>
+         <Attribute name="UFIAttributes.name" order="2" width="250"/>
+         <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                    order="3"
+                    width="110"/>
+         <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+         <Attribute name="CoverageAttributes.ASSERTION_STATUS_GRADE"
+                    order="5"
+                    width="78"/>
+      </Table>
+      <Table table="vPlanMappedFSMs">
+         <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+         <Attribute name="UNR" order="1" width="20"/>
+         <Attribute name="UFIAttributes.name" order="2" width="250"/>
+         <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                    order="3"
+                    width="110"/>
+         <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+      </Table>
+      <View view="Default">
+         <table name="vPlanMappedItems">
+            <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+            <Attribute name="UNR" order="1" width="20"/>
+            <Attribute name="UFIAttributes.name" order="2" width="250"/>
+            <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                       order="3"
+                       width="110"/>
+            <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+         </table>
+         <table name="vPlanRunsElementsTable">
+            <Attribute name="UFIAttributes.name" order="0" width="272"/>
+            <Attribute name="srft.index" order="1" width="61"/>
+            <Attribute name="srft.status" order="2" width="171"/>
+            <Attribute name="srft.duration" order="3" width="77"/>
+         </table>
+         <table name="vPlanMappedAssertions">
+            <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+            <Attribute name="UNR" order="1" width="20"/>
+            <Attribute name="UFIAttributes.name" order="2" width="250"/>
+            <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                       order="3"
+                       width="110"/>
+            <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+            <Attribute name="CoverageAttributes.ASSERTION_STATUS_GRADE"
+                       order="5"
+                       width="78"/>
+         </table>
+         <table name="vPlanRunsElementsEntitiesBoxTable">
+            <Attribute name="UFIAttributes.name" order="0" width="250"/>
+            <Attribute name="srft.index" order="1" width="39"/>
+            <Attribute name="srft.status" order="2" width="150"/>
+            <Attribute name="srft.duration" order="3" width="55"/>
+            <Attribute name="UFIAttributes.enclosing_entity" order="4" width="350"/>
+         </table>
+         <table name="vPlanTreeTableBox">
+            <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+            <Attribute name="UNR" order="1" width="20"/>
+            <Attribute name="UFIAttributes.name" order="2" width="371"/>
+            <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                       order="3"
+                       width="232"/>
+            <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="187"/>
+            <Attribute name="CoverageAttributes.ASSERTION_STATUS_GRADE"
+                       order="5"
+                       width="199"/>
+         </table>
+         <table name="vPlanSubElementsTable">
+            <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+            <Attribute name="UNR" order="1" width="20"/>
+            <Attribute name="UFIAttributes.name" order="2" width="267"/>
+            <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                       order="3"
+                       width="128"/>
+            <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="83"/>
+            <Attribute name="CoverageAttributes.ASSERTION_STATUS_GRADE"
+                       order="5"
+                       width="95"/>
+         </table>
+         <table name="vPlanMappedCoverGroups">
+            <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+            <Attribute name="UNR" order="1" width="20"/>
+            <Attribute name="UFIAttributes.name" order="2" width="250"/>
+            <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                       order="3"
+                       width="110"/>
+            <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+         </table>
+         <table name="vPlanBuckets">
+            <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+            <Attribute name="UNR" order="1" width="20"/>
+            <Attribute name="UFIAttributes.name" order="2" width="250"/>
+            <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                       order="3"
+                       width="110"/>
+            <Attribute name="CoverageAttributes.COUNT" order="4" width="39"/>
+         </table>
+         <table name="vPlanMetricItemsTree">
+            <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+            <Attribute name="UNR" order="1" width="20"/>
+            <Attribute name="UFIAttributes.name" order="2" width="299"/>
+            <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                       order="3"
+                       width="159"/>
+            <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="115"/>
+         </table>
+         <table name="vPlanMappedToggle">
+            <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+            <Attribute name="UNR" order="1" width="20"/>
+            <Attribute name="UFIAttributes.name" order="2" width="250"/>
+            <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                       order="3"
+                       width="110"/>
+            <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+            <Attribute name="UFIAttributes.enclosing_entity" order="5" width="350"/>
+         </table>
+         <table name="vPlanMappedElements">
+            <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+            <Attribute name="UNR" order="1" width="20"/>
+            <Attribute name="UFIAttributes.name" order="2" width="250"/>
+            <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                       order="3"
+                       width="110"/>
+            <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+            <Attribute name="CoverageAttributes.ASSERTION_STATUS_GRADE"
+                       order="5"
+                       width="78"/>
+         </table>
+         <table name="vPlanMappedFSMs">
+            <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+            <Attribute name="UNR" order="1" width="20"/>
+            <Attribute name="UFIAttributes.name" order="2" width="250"/>
+            <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                       order="3"
+                       width="110"/>
+            <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+         </table>
+      </View>
+   </VPLAN_SUMMARY>
+   <Messages VERSION="0">
+      <View view="Default">
+         <table name="messagesElementsTable">
+            <Attribute name="UFIAttributes.name" order="0" width="250"/>
+            <Attribute name="srft.description" order="1" width="380"/>
+            <Attribute name="srft.context" order="2" width="150"/>
+            <Attribute name="srft.severity" order="3" width="150"/>
+            <Attribute name="srft.category" order="4" width="150"/>
+            <Attribute name="UFIAttributes.number_of_entities" order="5" width="68"/>
+         </table>
+         <table name="messagesRunsElementsEntitiesBoxTable">
+            <Attribute name="UFIAttributes.name" order="0" width="250"/>
+            <Attribute name="srft.status" order="1" width="150"/>
+            <Attribute name="srft.duration" order="2" width="55"/>
+            <Attribute name="srft.computed_seed" order="3" width="36"/>
+         </table>
+         <table name="messagesRunsElementsTable">
+            <Attribute name="srft.index" order="0" width="39"/>
+            <Attribute name="UFIAttributes.name" order="1" width="250"/>
+            <Attribute name="srft.status" order="2" width="150"/>
+            <Attribute name="srft.first_failure_time" order="3" width="76"/>
+            <Attribute name="srft.computed_seed" order="4" width="36"/>
+            <Attribute name="srft.run_dir" order="5" width="150"/>
+            <Attribute name="srft.first_failure_log_file" order="6" width="150"/>
+         </table>
+         <table name="messagesElementsEntitiesBoxTable">
+            <Attribute name="UFIAttributes.name" order="0" width="251"/>
+            <Attribute name="srft.description" order="1" width="381"/>
+            <Attribute name="srft.context" order="2" width="152"/>
+            <Attribute name="srft.time" order="3" width="39"/>
+            <Attribute name="srft.severity" order="4" width="151"/>
+         </table>
+      </View>
+   </Messages>
+   
+   
+   <PLANNER VERSION="0">
+      <Table table="plannervPlanTreeTableBox">
+         <Attribute name="UFIAttributes.name" order="0" width="992"/>
+      </Table>
+      <Table table="metricsMappingTogglesTable">
+         <Attribute name="UFIAttributes.name" order="0" width="250"/>
+      </Table>
+      <Table table="specsTableBoxTable">
+         <Attribute name="vplan.file_name" order="0" width="260"/>
+         <Attribute name="vplan.annotations_count" order="1" width="181"/>
+         <Attribute name="vplan.file_last_modified" order="2" width="169"/>
+         <Attribute name="resolvable_vplan.details" order="3" width="259"/>
+      </Table>
+      <Table table="metricsTree">
+         <Attribute name="UFIAttributes.name" order="0" width="322"/>
+         <Attribute name="VALID_METRICS" order="1" width="124"/>
+      </Table>
+      <View view="Default">
+         <table name="plannervPlanTreeTableBox">
+            <Attribute name="UFIAttributes.name" order="0" width="992"/>
+         </table>
+         <table name="metricsMappingTogglesTable">
+            <Attribute name="UFIAttributes.name" order="0" width="250"/>
+         </table>
+         <table name="specsTableBoxTable">
+            <Attribute name="vplan.file_name" order="0" width="260"/>
+            <Attribute name="vplan.annotations_count" order="1" width="181"/>
+            <Attribute name="vplan.file_last_modified" order="2" width="169"/>
+            <Attribute name="resolvable_vplan.details" order="3" width="259"/>
+         </table>
+         <table name="metricsTree">
+            <Attribute name="UFIAttributes.name" order="0" width="404"/>
+            <Attribute name="VALID_METRICS" order="1" width="124"/>
+         </table>
+      </View>
+   </PLANNER>
+   <SESSIONS_SUMMARY VERSION="0">
+      <Table table="sessionsInaccessibleElements_table">
+         <Attribute name="UFIAttributes.name" order="0" width="250"/>
+         <Attribute name="srft.owner" order="1" width="150"/>
+         <Attribute name="srft.start_time" order="2" width="100"/>
+         <Attribute name="srft.db_insertion_priority" order="3" width="150"/>
+      </Table>
+      <Table table="flowsElementsEntitiesBoxTable">
+         <Attribute name="srft.session_status" order="0" width="150"/>
+         <Attribute name="UFIAttributes.name" order="1" width="250"/>
+         <Attribute name="srft.total_runs_in_session_ps" order="2" width="110"/>
+         <Attribute name="srft.passed_runs_ps" order="3" width="53"/>
+         <Attribute name="srft.failed_runs_ps" order="4" width="48"/>
+         <Attribute name="srft.waiting_ps" order="5" width="56"/>
+         <Attribute name="srft.running_ps" order="6" width="58"/>
+         <Attribute name="srft.other_runs_ps" order="7" width="47"/>
+         <Attribute name="srft.start_time" order="8" width="100"/>
+         <Attribute name="srft.owner" order="9" width="150"/>
+      </Table>
+      <Table table="flowsElementsTable">
+         <Attribute name="srft.session_status" order="0" width="150"/>
+         <Attribute name="UFIAttributes.name" order="1" width="250"/>
+         <Attribute name="srft.total_runs_in_session_ps" order="2" width="110"/>
+         <Attribute name="srft.passed_runs_ps" order="3" width="53"/>
+         <Attribute name="srft.failed_runs_ps" order="4" width="48"/>
+         <Attribute name="srft.waiting_ps" order="5" width="56"/>
+         <Attribute name="srft.running_ps" order="6" width="58"/>
+         <Attribute name="srft.other_runs_ps" order="7" width="47"/>
+         <Attribute name="srft.start_time" order="8" width="100"/>
+         <Attribute name="srft.owner" order="9" width="150"/>
+      </Table>
+      <Table table="sessionsElementsTableEntitiesBoxTable">
+         <Attribute name="srft.session_status" order="0" width="150"/>
+         <Attribute name="UFIAttributes.name" order="1" width="250"/>
+         <Attribute name="srft.total_runs_in_session_ps" order="2" width="110"/>
+         <Attribute name="srft.passed_runs_ps" order="3" width="53"/>
+         <Attribute name="srft.failed_runs_ps" order="4" width="48"/>
+         <Attribute name="srft.waiting_ps" order="5" width="56"/>
+         <Attribute name="srft.running_ps" order="6" width="58"/>
+         <Attribute name="srft.other_runs_ps" order="7" width="47"/>
+         <Attribute name="srft.start_time" order="8" width="100"/>
+         <Attribute name="srft.owner" order="9" width="150"/>
+      </Table>
+      <Table table="sessionsElementsTable">
+         <Attribute name="srft.session_status" order="0" width="234"/>
+         <Attribute name="UFIAttributes.name" order="1" width="334"/>
+         <Attribute name="srft.total_runs_in_session_ps" order="2" width="194"/>
+         <Attribute name="srft.passed_runs_ps" order="3" width="138"/>
+         <Attribute name="srft.failed_runs_ps" order="4" width="133"/>
+         <Attribute name="srft.running_ps" order="5" width="142"/>
+         <Attribute name="srft.waiting_ps" order="6" width="142"/>
+         <Attribute name="srft.other_runs_ps" order="7" width="131"/>
+         <Attribute name="srft.start_time" order="8" width="186"/>
+         <Attribute name="srft.owner" order="9" width="234"/>
+      </Table>
+      <Table table="sessionsInaccessibleElementsEntitiesBoxTable">
+         <Attribute name="UFIAttributes.name" order="0" width="250"/>
+         <Attribute name="srft.owner" order="1" width="150"/>
+         <Attribute name="srft.start_time" order="2" width="100"/>
+         <Attribute name="srft.db_insertion_priority" order="3" width="150"/>
+      </Table>
+      <View view="Default">
+         <table name="sessionsInaccessibleElements_table">
+            <Attribute name="UFIAttributes.name" order="0" width="250"/>
+            <Attribute name="srft.owner" order="1" width="150"/>
+            <Attribute name="srft.start_time" order="2" width="100"/>
+            <Attribute name="srft.db_insertion_priority" order="3" width="150"/>
+         </table>
+         <table name="flowsElementsEntitiesBoxTable">
+            <Attribute name="srft.session_status" order="0" width="150"/>
+            <Attribute name="UFIAttributes.name" order="1" width="250"/>
+            <Attribute name="srft.total_runs_in_session_ps" order="2" width="110"/>
+            <Attribute name="srft.passed_runs_ps" order="3" width="53"/>
+            <Attribute name="srft.failed_runs_ps" order="4" width="48"/>
+            <Attribute name="srft.waiting_ps" order="5" width="56"/>
+            <Attribute name="srft.running_ps" order="6" width="58"/>
+            <Attribute name="srft.other_runs_ps" order="7" width="47"/>
+            <Attribute name="srft.start_time" order="8" width="100"/>
+            <Attribute name="srft.owner" order="9" width="150"/>
+         </table>
+         <table name="flowsElementsTable">
+            <Attribute name="srft.session_status" order="0" width="150"/>
+            <Attribute name="UFIAttributes.name" order="1" width="250"/>
+            <Attribute name="srft.total_runs_in_session_ps" order="2" width="110"/>
+            <Attribute name="srft.passed_runs_ps" order="3" width="53"/>
+            <Attribute name="srft.failed_runs_ps" order="4" width="48"/>
+            <Attribute name="srft.waiting_ps" order="5" width="56"/>
+            <Attribute name="srft.running_ps" order="6" width="58"/>
+            <Attribute name="srft.other_runs_ps" order="7" width="47"/>
+            <Attribute name="srft.start_time" order="8" width="100"/>
+            <Attribute name="srft.owner" order="9" width="150"/>
+         </table>
+         <table name="sessionsElementsTableEntitiesBoxTable">
+            <Attribute name="srft.session_status" order="0" width="150"/>
+            <Attribute name="UFIAttributes.name" order="1" width="250"/>
+            <Attribute name="srft.total_runs_in_session_ps" order="2" width="110"/>
+            <Attribute name="srft.passed_runs_ps" order="3" width="53"/>
+            <Attribute name="srft.failed_runs_ps" order="4" width="48"/>
+            <Attribute name="srft.waiting_ps" order="5" width="56"/>
+            <Attribute name="srft.running_ps" order="6" width="58"/>
+            <Attribute name="srft.other_runs_ps" order="7" width="47"/>
+            <Attribute name="srft.start_time" order="8" width="100"/>
+            <Attribute name="srft.owner" order="9" width="150"/>
+         </table>
+         <table name="sessionsElementsTable">
+            <Attribute name="srft.session_status" order="0" width="234"/>
+            <Attribute name="UFIAttributes.name" order="1" width="334"/>
+            <Attribute name="srft.total_runs_in_session_ps" order="2" width="194"/>
+            <Attribute name="srft.passed_runs_ps" order="3" width="138"/>
+            <Attribute name="srft.failed_runs_ps" order="4" width="133"/>
+            <Attribute name="srft.running_ps" order="5" width="142"/>
+            <Attribute name="srft.waiting_ps" order="6" width="142"/>
+            <Attribute name="srft.other_runs_ps" order="7" width="131"/>
+            <Attribute name="srft.start_time" order="8" width="186"/>
+            <Attribute name="srft.owner" order="9" width="234"/>
+         </table>
+         <table name="sessionsInaccessibleElementsEntitiesBoxTable">
+            <Attribute name="UFIAttributes.name" order="0" width="250"/>
+            <Attribute name="srft.owner" order="1" width="150"/>
+            <Attribute name="srft.start_time" order="2" width="100"/>
+            <Attribute name="srft.db_insertion_priority" order="3" width="150"/>
+         </table>
+      </View>
+   </SESSIONS_SUMMARY>
+   
+   
+   <RUNS VERSION="0">
+      <Table table="allRunsWarningsEntitiesBoxTable">
+         <Attribute name="UFIAttributes.name" order="0" width="250"/>
+         <Attribute name="srft.description" order="1" width="380"/>
+         <Attribute name="srft.tool" order="2" width="150"/>
+      </Table>
+      <Table table="faultsElementsTable">
+         <Attribute name="UFIAttributes.name" order="4" width="250"/>
+      </Table>
+      <Table table="runsElementsEntitiesBoxTable">
+         <Attribute name="UFIAttributes.name" order="0" width="250"/>
+         <Attribute name="srft.status" order="1" width="150"/>
+         <Attribute name="srft.duration" order="2" width="55"/>
+         <Attribute name="srft.computed_seed" order="3" width="36"/>
+      </Table>
+      <Table table="runsElementsTable">
+         <Attribute name="srft.index" order="0" width="116"/>
+         <Attribute name="UFIAttributes.name" order="1" width="327"/>
+         <Attribute name="srft.status" order="2" width="227"/>
+         <Attribute name="srft.duration" order="3" width="132"/>
+         <Attribute name="srft.top_files" order="4" width="227"/>
+      </Table>
+      <Table table="faultsElementsEntitiesBoxTable">
+         <Attribute name="UFIAttributes.name" order="4" width="250"/>
+      </Table>
+      <Table table="allRunsWarningsTable">
+         <Attribute name="UFIAttributes.name" order="0" width="250"/>
+         <Attribute name="srft.description" order="1" width="380"/>
+         <Attribute name="srft.tool" order="2" width="150"/>
+      </Table>
+      <Table table="propertiesElementsEntitiesBoxTable">
+         <Attribute name="UFIAttributes.name" order="0" width="250"/>
+         <Attribute name="srft.instance" order="1" width="150"/>
+         <Attribute name="srft.type" order="2" width="150"/>
+         <Attribute name="srft.property_status" order="3" width="150"/>
+         <Attribute name="srft.depth" order="4" width="42"/>
+         <Attribute name="srft.trace_status" order="5" width="150"/>
+         <Attribute name="srft.trace_depth" order="6" width="45"/>
+         <Attribute name="srft.property_cpu_time" order="7" width="66"/>
+      </Table>
+      <Table table="allrunsMessagesEntitiesBoxTable">
+         <Attribute name="UFIAttributes.name" order="0" width="250"/>
+         <Attribute name="srft.description" order="1" width="380"/>
+         <Attribute name="srft.tool" order="2" width="150"/>
+      </Table>
+      <Table table="propertiesElementsTable">
+         <Attribute name="UFIAttributes.name" order="0" width="250"/>
+         <Attribute name="srft.instance" order="1" width="150"/>
+         <Attribute name="srft.type" order="2" width="150"/>
+         <Attribute name="srft.property_status" order="3" width="150"/>
+         <Attribute name="srft.depth" order="4" width="42"/>
+         <Attribute name="srft.trace_status" order="5" width="150"/>
+         <Attribute name="srft.trace_depth" order="6" width="45"/>
+         <Attribute name="srft.property_cpu_time" order="7" width="66"/>
+      </Table>
+      <Table table="allrunsMessagesTable">
+         <Attribute name="UFIAttributes.name" order="0" width="250"/>
+         <Attribute name="srft.description" order="1" width="380"/>
+         <Attribute name="srft.tool" order="2" width="150"/>
+      </Table>
+      <View view="Default">
+         <table name="allRunsWarningsEntitiesBoxTable">
+            <Attribute name="UFIAttributes.name" order="0" width="250"/>
+            <Attribute name="srft.description" order="1" width="380"/>
+            <Attribute name="srft.tool" order="2" width="150"/>
+         </table>
+         <table name="faultsElementsTable">
+            <Attribute name="UFIAttributes.name" order="4" width="250"/>
+         </table>
+         <table name="runsElementsEntitiesBoxTable">
+            <Attribute name="UFIAttributes.name" order="0" width="250"/>
+            <Attribute name="srft.status" order="1" width="150"/>
+            <Attribute name="srft.duration" order="2" width="55"/>
+            <Attribute name="srft.computed_seed" order="3" width="36"/>
+         </table>
+         <table name="runsElementsTable">
+            <Attribute name="srft.index" order="0" width="116"/>
+            <Attribute name="UFIAttributes.name" order="1" width="327"/>
+            <Attribute name="srft.status" order="2" width="227"/>
+            <Attribute name="srft.duration" order="3" width="132"/>
+            <Attribute name="srft.top_files" order="4" width="227"/>
+         </table>
+         <table name="faultsElementsEntitiesBoxTable">
+            <Attribute name="UFIAttributes.name" order="4" width="250"/>
+         </table>
+         <table name="allRunsWarningsTable">
+            <Attribute name="UFIAttributes.name" order="0" width="250"/>
+            <Attribute name="srft.description" order="1" width="380"/>
+            <Attribute name="srft.tool" order="2" width="150"/>
+         </table>
+         <table name="propertiesElementsEntitiesBoxTable">
+            <Attribute name="UFIAttributes.name" order="0" width="250"/>
+            <Attribute name="srft.instance" order="1" width="150"/>
+            <Attribute name="srft.type" order="2" width="150"/>
+            <Attribute name="srft.property_status" order="3" width="150"/>
+            <Attribute name="srft.depth" order="4" width="42"/>
+            <Attribute name="srft.trace_status" order="5" width="150"/>
+            <Attribute name="srft.trace_depth" order="6" width="45"/>
+            <Attribute name="srft.property_cpu_time" order="7" width="66"/>
+         </table>
+         <table name="allrunsMessagesEntitiesBoxTable">
+            <Attribute name="UFIAttributes.name" order="0" width="250"/>
+            <Attribute name="srft.description" order="1" width="380"/>
+            <Attribute name="srft.tool" order="2" width="150"/>
+         </table>
+         <table name="propertiesElementsTable">
+            <Attribute name="UFIAttributes.name" order="0" width="250"/>
+            <Attribute name="srft.instance" order="1" width="150"/>
+            <Attribute name="srft.type" order="2" width="150"/>
+            <Attribute name="srft.property_status" order="3" width="150"/>
+            <Attribute name="srft.depth" order="4" width="42"/>
+            <Attribute name="srft.trace_status" order="5" width="150"/>
+            <Attribute name="srft.trace_depth" order="6" width="45"/>
+            <Attribute name="srft.property_cpu_time" order="7" width="66"/>
+         </table>
+         <table name="allrunsMessagesTable">
+            <Attribute name="UFIAttributes.name" order="0" width="250"/>
+            <Attribute name="srft.description" order="1" width="380"/>
+            <Attribute name="srft.tool" order="2" width="150"/>
+         </table>
+      </View>
+   </RUNS>
+   <RUNS_SUMMARY VERSION="0">
+      <Table table="excludedRunsTable">
+         <Attribute name="srft.index" order="0" width="39"/>
+         <Attribute name="UFIAttributes.name" order="1" width="250"/>
+         <Attribute name="srft.exclusion_comment_vmgr" order="2" width="150"/>
+         <Attribute name="srft.exclusion_time_vmgr" order="3" width="100"/>
+         <Attribute name="srft.exclusion_user_vmgr" order="4" width="150"/>
+      </Table>
+      <Table table="faultsElementsTable">
+         <Attribute name="UFIAttributes.name" order="4" width="250"/>
+      </Table>
+      <Table table="runsWarningsElementsTable">
+         <Attribute name="UFIAttributes.name" order="0" width="250"/>
+         <Attribute name="srft.description" order="1" width="380"/>
+         <Attribute name="srft.tool" order="2" width="150"/>
+      </Table>
+      <Table table="runsElementsEntitiesBoxTable">
+         <Attribute name="UFIAttributes.name" order="0" width="250"/>
+         <Attribute name="srft.status" order="1" width="150"/>
+         <Attribute name="srft.duration" order="2" width="55"/>
+         <Attribute name="srft.computed_seed" order="3" width="36"/>
+      </Table>
+      <Table table="runsWarningsElementsEntitiesBoxTable">
+         <Attribute name="UFIAttributes.name" order="0" width="250"/>
+         <Attribute name="srft.description" order="1" width="380"/>
+         <Attribute name="srft.tool" order="2" width="150"/>
+      </Table>
+      <Table table="runsElementsTable">
+         <Attribute name="srft.index" order="0" width="39"/>
+         <Attribute name="UFIAttributes.name" order="1" width="250"/>
+         <Attribute name="srft.status" order="2" width="150"/>
+         <Attribute name="srft.duration" order="3" width="55"/>
+         <Attribute name="srft.top_files" order="4" width="150"/>
+         <Attribute name="srft.start_time" order="5" width="100"/>
+      </Table>
+      <Table table="runsMessagesElementsEntitiesBoxTable">
+         <Attribute name="UFIAttributes.name" order="0" width="250"/>
+         <Attribute name="srft.description" order="1" width="380"/>
+         <Attribute name="srft.tool" order="2" width="150"/>
+      </Table>
+      <Table table="faultsElementsEntitiesBoxTable">
+         <Attribute name="UFIAttributes.name" order="4" width="250"/>
+      </Table>
+      <Table table="propertiesElementsEntitiesBoxTable">
+         <Attribute name="UFIAttributes.name" order="0" width="250"/>
+         <Attribute name="srft.instance" order="1" width="150"/>
+         <Attribute name="srft.type" order="2" width="150"/>
+         <Attribute name="srft.property_status" order="3" width="150"/>
+         <Attribute name="srft.depth" order="4" width="42"/>
+         <Attribute name="srft.trace_status" order="5" width="150"/>
+         <Attribute name="srft.trace_depth" order="6" width="45"/>
+         <Attribute name="srft.property_cpu_time" order="7" width="66"/>
+      </Table>
+      <Table table="runsMessagesElementsTable">
+         <Attribute name="UFIAttributes.name" order="0" width="250"/>
+         <Attribute name="srft.description" order="1" width="380"/>
+         <Attribute name="srft.severity" order="2" width="150"/>
+         <Attribute name="srft.category" order="3" width="150"/>
+      </Table>
+      <Table table="propertiesElementsTable">
+         <Attribute name="UFIAttributes.name" order="0" width="250"/>
+         <Attribute name="srft.instance" order="1" width="150"/>
+         <Attribute name="srft.type" order="2" width="150"/>
+         <Attribute name="srft.property_status" order="3" width="150"/>
+         <Attribute name="srft.depth" order="4" width="42"/>
+         <Attribute name="srft.trace_status" order="5" width="150"/>
+         <Attribute name="srft.trace_depth" order="6" width="45"/>
+         <Attribute name="srft.property_cpu_time" order="7" width="66"/>
+      </Table>
+      <Table table="testTreeTableBox">
+         <Attribute name="UFIAttributes.name" order="0" width="250"/>
+         <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                    order="1"
+                    width="110"/>
+         <Attribute name="CoverageAttributes.OVERALL_HIT" order="2" width="65"/>
+         <Attribute name="srft.test_status" order="3" width="60"/>
+      </Table>
+      <View view="Default">
+         <table name="excludedRunsTable">
+            <Attribute name="srft.index" order="0" width="96"/>
+            <Attribute name="UFIAttributes.name" order="1" width="307"/>
+            <Attribute name="srft.exclusion_comment_vmgr" order="2" width="207"/>
+            <Attribute name="srft.exclusion_time_vmgr" order="3" width="157"/>
+            <Attribute name="srft.exclusion_user_vmgr" order="4" width="207"/>
+         </table>
+         <table name="faultsElementsTable">
+            <Attribute name="UFIAttributes.name" order="4" width="250"/>
+         </table>
+         <table name="runsWarningsElementsTable">
+            <Attribute name="UFIAttributes.name" order="0" width="250"/>
+            <Attribute name="srft.description" order="1" width="380"/>
+            <Attribute name="srft.tool" order="2" width="150"/>
+         </table>
+         <table name="runsElementsEntitiesBoxTable">
+            <Attribute name="UFIAttributes.name" order="0" width="250"/>
+            <Attribute name="srft.status" order="1" width="150"/>
+            <Attribute name="srft.duration" order="2" width="55"/>
+            <Attribute name="srft.computed_seed" order="3" width="36"/>
+         </table>
+         <table name="runsWarningsElementsEntitiesBoxTable">
+            <Attribute name="UFIAttributes.name" order="0" width="250"/>
+            <Attribute name="srft.description" order="1" width="380"/>
+            <Attribute name="srft.tool" order="2" width="150"/>
+         </table>
+         <table name="runsElementsTable">
+            <Attribute name="srft.index" order="0" width="77"/>
+            <Attribute name="UFIAttributes.name" order="1" width="288"/>
+            <Attribute name="srft.status" order="2" width="188"/>
+            <Attribute name="srft.duration" order="3" width="94"/>
+            <Attribute name="srft.top_files" order="4" width="188"/>
+            <Attribute name="srft.start_time" order="5" width="139"/>
+         </table>
+         <table name="runsMessagesElementsEntitiesBoxTable">
+            <Attribute name="UFIAttributes.name" order="0" width="250"/>
+            <Attribute name="srft.description" order="1" width="380"/>
+            <Attribute name="srft.tool" order="2" width="150"/>
+         </table>
+         <table name="faultsElementsEntitiesBoxTable">
+            <Attribute name="UFIAttributes.name" order="4" width="250"/>
+         </table>
+         <table name="propertiesElementsEntitiesBoxTable">
+            <Attribute name="UFIAttributes.name" order="0" width="250"/>
+            <Attribute name="srft.instance" order="1" width="150"/>
+            <Attribute name="srft.type" order="2" width="150"/>
+            <Attribute name="srft.property_status" order="3" width="150"/>
+            <Attribute name="srft.depth" order="4" width="42"/>
+            <Attribute name="srft.trace_status" order="5" width="150"/>
+            <Attribute name="srft.trace_depth" order="6" width="45"/>
+            <Attribute name="srft.property_cpu_time" order="7" width="66"/>
+         </table>
+         <table name="runsMessagesElementsTable">
+            <Attribute name="UFIAttributes.name" order="0" width="250"/>
+            <Attribute name="srft.description" order="1" width="380"/>
+            <Attribute name="srft.severity" order="2" width="150"/>
+            <Attribute name="srft.category" order="3" width="150"/>
+         </table>
+         <table name="propertiesElementsTable">
+            <Attribute name="UFIAttributes.name" order="0" width="250"/>
+            <Attribute name="srft.instance" order="1" width="150"/>
+            <Attribute name="srft.type" order="2" width="150"/>
+            <Attribute name="srft.property_status" order="3" width="150"/>
+            <Attribute name="srft.depth" order="4" width="42"/>
+            <Attribute name="srft.trace_status" order="5" width="150"/>
+            <Attribute name="srft.trace_depth" order="6" width="45"/>
+            <Attribute name="srft.property_cpu_time" order="7" width="66"/>
+         </table>
+         <table name="testTreeTableBox">
+            <Attribute name="UFIAttributes.name" order="0" width="372"/>
+            <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                       order="1"
+                       width="232"/>
+            <Attribute name="CoverageAttributes.OVERALL_HIT" order="2" width="187"/>
+            <Attribute name="srft.test_status" order="3" width="183"/>
+         </table>
+      </View>
+   </RUNS_SUMMARY>
+</SETTINGS_DOC>

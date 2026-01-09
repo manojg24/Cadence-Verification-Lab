@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SETTINGS_DOC>
+   
+   
+   <METRIC_FUNCTIONAL VERSION="0">
+      <Table table="GradesBar">
+         <Attribute name="CoverageAttributes.OVERALL_GRADE" order="0" width="-1"/>
+         <Attribute name="CoverageAttributes.FUNCTIONAL_GRADE" order="1" width="-1"/>
+         <Attribute name="CoverageAttributes.COVER_GROUP_GRADE" order="2" width="-1"/>
+         <Attribute name="CoverageAttributes.ASSERTION_GRADE" order="3" width="-1"/>
+      </Table>
+      <Table table="itemsTable">
+         <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+         <Attribute name="UNR" order="1" width="20"/>
+         <Attribute name="UFIAttributes.name" order="2" width="250"/>
+         <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                    order="3"
+                    width="110"/>
+         <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+      </Table>
+      <Table table="groupsTable">
+         <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+         <Attribute name="UNR" order="1" width="20"/>
+         <Attribute name="UFIAttributes.name" order="2" width="250"/>
+         <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                    order="3"
+                    width="110"/>
+         <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+         <Attribute name="UFIAttributes.enclosing_entity" order="5" width="350"/>
+      </Table>
+      <Table table="bucketsTable">
+         <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+         <Attribute name="UNR" order="1" width="20"/>
+         <Attribute name="UFIAttributes.name" order="2" width="250"/>
+         <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                    order="3"
+                    width="110"/>
+         <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+         <Attribute name="CoverageAttributes.COUNT" order="5" width="39"/>
+      </Table>
+      <Table table="assertionsTable">
+         <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+         <Attribute name="UNR" order="1" width="20"/>
+         <Attribute name="UFIAttributes.name" order="2" width="250"/>
+         <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                    order="3"
+                    width="110"/>
+         <Attribute name="CoverageAttributes.ASSERTION_STATUS_GRADE"
+                    order="4"
+                    width="78"/>
+         <Attribute name="UFIAttributes.enclosing_entity" order="5" width="350"/>
+      </Table>
+      <View view="Default">
+         <table name="itemsTable">
+            <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+            <Attribute name="UNR" order="1" width="20"/>
+            <Attribute name="UFIAttributes.name" order="2" width="250"/>
+            <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                       order="3"
+                       width="110"/>
+            <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+         </table>
+         <table name="groupsTable">
+            <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+            <Attribute name="UNR" order="1" width="20"/>
+            <Attribute name="UFIAttributes.name" order="2" width="250"/>
+            <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                       order="3"
+                       width="110"/>
+            <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+            <Attribute name="UFIAttributes.enclosing_entity" order="5" width="350"/>
+         </table>
+         <table name="bucketsTable">
+            <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+            <Attribute name="UNR" order="1" width="20"/>
+            <Attribute name="UFIAttributes.name" order="2" width="250"/>
+            <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                       order="3"
+                       width="110"/>
+            <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+            <Attribute name="CoverageAttributes.COUNT" order="5" width="39"/>
+         </table>
+         <table name="assertionsTable">
+            <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+            <Attribute name="UNR" order="1" width="20"/>
+            <Attribute name="UFIAttributes.name" order="2" width="250"/>
+            <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                       order="3"
+                       width="110"/>
+            <Attribute name="CoverageAttributes.ASSERTION_STATUS_GRADE"
+                       order="4"
+                       width="78"/>
+            <Attribute name="UFIAttributes.enclosing_entity" order="5" width="350"/>
+         </table>
+      </View>
+   </METRIC_FUNCTIONAL>
+   <METRIC_SUMMARY VERSION="0">
+      <Table table="summaryTreeTableBox">
+         <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+         <Attribute name="UNR" order="1" width="20"/>
+         <Attribute name="UFIAttributes.name" order="2" width="297"/>
+         <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                    order="3"
+                    width="157"/>
+         <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="113"/>
+         <Attribute name="CoverageAttributes.ASSERTION_STATUS_GRADE"
+                    order="5"
+                    width="125"/>
+      </Table>
+      <Table table="infoTabBoxItemsTable">
+         <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+         <Attribute name="UNR" order="1" width="20"/>
+         <Attribute name="UFIAttributes.name" order="2" width="250"/>
+         <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                    order="3"
+                    width="110"/>
+         <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+         <Attribute name="UFIAttributes.enclosing_entity" order="5" width="350"/>
+      </Table>
+      <Table table="infoTabBoxFSMsTable">
+         <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+         <Attribute name="UNR" order="1" width="20"/>
+         <Attribute name="UFIAttributes.name" order="2" width="250"/>
+         <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                    order="3"
+                    width="110"/>
+         <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+         <Attribute name="UFIAttributes.enclosing_entity" order="5" width="350"/>
+      </Table>
+      <Table table="infoTabBoxBinsTable">
+         <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+         <Attribute name="UNR" order="1" width="20"/>
+         <Attribute name="UFIAttributes.name" order="2" width="250"/>
+         <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                    order="3"
+                    width="110"/>
+         <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+         <Attribute name="CoverageAttributes.COUNT" order="5" width="39"/>
+      </Table>
+      <Table table="infoTabBoxSub_ElementsTable">
+         <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+         <Attribute name="UNR" order="1" width="20"/>
+         <Attribute name="UFIAttributes.name" order="2" width="250"/>
+         <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                    order="3"
+                    width="110"/>
+         <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+         <Attribute name="CoverageAttributes.ASSERTION_STATUS_GRADE"
+                    order="5"
+                    width="78"/>
+      </Table>
+      <Table table="infoTabBoxAssertionsTable">
+         <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+         <Attribute name="UNR" order="1" width="20"/>
+         <Attribute name="UFIAttributes.name" order="2" width="250"/>
+         <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                    order="3"
+                    width="110"/>
+         <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+         <Attribute name="CoverageAttributes.ASSERTION_STATUS_GRADE"
+                    order="5"
+                    width="78"/>
+      </Table>
+      <Table table="metricItemsTree">
+         <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+         <Attribute name="UNR" order="1" width="20"/>
+         <Attribute name="UFIAttributes.name" order="2" width="250"/>
+         <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                    order="3"
+                    width="110"/>
+         <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+      </Table>
+      <Table table="infoTabBoxCover_GroupsTable">
+         <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+         <Attribute name="UNR" order="1" width="20"/>
+         <Attribute name="UFIAttributes.name" order="2" width="250"/>
+         <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                    order="3"
+                    width="110"/>
+         <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+         <Attribute name="UFIAttributes.enclosing_entity" order="5" width="350"/>
+      </Table>
+      <Table table="infoTabBoxToggleTable">
+         <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+         <Attribute name="UNR" order="1" width="20"/>
+         <Attribute name="UFIAttributes.name" order="2" width="250"/>
+         <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                    order="3"
+                    width="110"/>
+         <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+      </Table>
+      <View view="Default">
+         <table name="summaryTreeTableBox">
+            <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+            <Attribute name="UNR" order="1" width="20"/>
+            <Attribute name="UFIAttributes.name" order="2" width="297"/>
+            <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                       order="3"
+                       width="157"/>
+            <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="113"/>
+            <Attribute name="CoverageAttributes.ASSERTION_STATUS_GRADE"
+                       order="5"
+                       width="125"/>
+         </table>
+         <table name="infoTabBoxItemsTable">
+            <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+            <Attribute name="UNR" order="1" width="20"/>
+            <Attribute name="UFIAttributes.name" order="2" width="250"/>
+            <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                       order="3"
+                       width="110"/>
+            <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+            <Attribute name="UFIAttributes.enclosing_entity" order="5" width="350"/>
+         </table>
+         <table name="infoTabBoxFSMsTable">
+            <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+            <Attribute name="UNR" order="1" width="20"/>
+            <Attribute name="UFIAttributes.name" order="2" width="250"/>
+            <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                       order="3"
+                       width="110"/>
+            <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+            <Attribute name="UFIAttributes.enclosing_entity" order="5" width="350"/>
+         </table>
+         <table name="infoTabBoxBinsTable">
+            <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+            <Attribute name="UNR" order="1" width="20"/>
+            <Attribute name="UFIAttributes.name" order="2" width="250"/>
+            <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                       order="3"
+                       width="110"/>
+            <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+            <Attribute name="CoverageAttributes.COUNT" order="5" width="39"/>
+         </table>
+         <table name="infoTabBoxSub_ElementsTable">
+            <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+            <Attribute name="UNR" order="1" width="20"/>
+            <Attribute name="UFIAttributes.name" order="2" width="250"/>
+            <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                       order="3"
+                       width="110"/>
+            <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+            <Attribute name="CoverageAttributes.ASSERTION_STATUS_GRADE"
+                       order="5"
+                       width="78"/>
+         </table>
+         <table name="infoTabBoxAssertionsTable">
+            <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+            <Attribute name="UNR" order="1" width="20"/>
+            <Attribute name="UFIAttributes.name" order="2" width="250"/>
+            <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                       order="3"
+                       width="110"/>
+            <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+            <Attribute name="CoverageAttributes.ASSERTION_STATUS_GRADE"
+                       order="5"
+                       width="78"/>
+         </table>
+         <table name="metricItemsTree">
+            <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+            <Attribute name="UNR" order="1" width="20"/>
+            <Attribute name="UFIAttributes.name" order="2" width="250"/>
+            <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                       order="3"
+                       width="110"/>
+            <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+         </table>
+         <table name="infoTabBoxCover_GroupsTable">
+            <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+            <Attribute name="UNR" order="1" width="20"/>
+            <Attribute name="UFIAttributes.name" order="2" width="250"/>
+            <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                       order="3"
+                       width="110"/>
+            <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+            <Attribute name="UFIAttributes.enclosing_entity" order="5" width="350"/>
+         </table>
+         <table name="infoTabBoxToggleTable">
+            <Attribute name="EXCLUSION_RULE_TYPE" order="0" width="20"/>
+            <Attribute name="UNR" order="1" width="20"/>
+            <Attribute name="UFIAttributes.name" order="2" width="250"/>
+            <Attribute name="CoverageAttributes.OVERALL_AVERAGE_GRADE"
+                       order="3"
+                       width="110"/>
+            <Attribute name="CoverageAttributes.OVERALL_HIT" order="4" width="65"/>
+         </table>
+      </View>
+   </METRIC_SUMMARY>
+</SETTINGS_DOC>

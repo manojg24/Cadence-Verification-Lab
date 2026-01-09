@@ -1,0 +1,24 @@
+# DO NOT EDIT -- automatically generated options file -- DO NOT EDIT!!!
+return {
+  toolbar-Standard-WatchWindow {
+  usual
+  shown 0
+}
+  plugin-enable-svdatabrowser-new {1}
+  toolbar-Windows-WatchWindow {
+  usual
+  shown 0
+}
+  user-toolbar-list {}
+  plugin-enable-groupscope {0}
+  plugin-enable-interleaveandcompare {0}
+  plugin-enable-waveformfrequencyplot {0}
+  toolbar-SimControl-WatchWindow {
+  usual
+  shown 0
+}
+  toolbar-TimeSearch-WatchWindow {
+  usual
+  shown 0
+}
+}

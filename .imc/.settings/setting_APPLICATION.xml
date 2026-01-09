@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SETTINGS_DOC>
+   <com.cadence.ufi.gui.workspace.GUFIPrefSettings VERSION="0">
+      <pref name="IMCWorkspace.gdmvMainFrame.height" value="864"/>
+      <pref name="IMCWorkspace.gdmvMainFrame.left" value="50"/>
+      <pref name="IMCWorkspace.gdmvMainFrame.save_window_size_and_location"
+            value="true"/>
+      <pref name="IMCWorkspace.gdmvMainFrame.top" value="30"/>
+      <pref name="IMCWorkspace.gdmvMainFrame.width" value="1536"/>
+      <pref name="IMCWorkspace.gdmvMainFrame.windowState" value="0"/>
+      <pref name="Workspace.AutoSave" value="true"/>
+      <pref name="Workspace.sideBar.sideBar.prevSize" value="300"/>
+      <pref name="Workspace.sideBar.sideBar.state" value="true"/>
+      <pref name="Workspace.sideBar.state" value="false"/>
+   </com.cadence.ufi.gui.workspace.GUFIPrefSettings>
+</SETTINGS_DOC>

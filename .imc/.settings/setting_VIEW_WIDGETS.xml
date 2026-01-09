@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SETTINGS_DOC>
+   <ViewWidget VERSION="0">
+      <view name="ngv_root_user.ASSERTION.Assertions">
+         <table name="assertionsTable">
+            <Attribute name="Overall Average Grade" width="110"/>
+            <Attribute name="Enclosing Entity" width="350"/>
+            <Attribute name="UNR" width="20"/>
+            <Attribute name="Assertion Status Grade" width="78"/>
+            <Attribute name="Exclusion Rule Type" width="20"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+      </view>
+      <view name="ngv_root_user.COVER_GROUP.CoverGroups">
+         <table name="itemsTable">
+            <Attribute name="Overall Average Grade" width="110"/>
+            <Attribute name="UNR" width="20"/>
+            <Attribute name="Overall Covered" width="65"/>
+            <Attribute name="Exclusion Rule Type" width="20"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="groupsTable">
+            <Attribute name="Overall Average Grade" width="110"/>
+            <Attribute name="Enclosing Entity" width="350"/>
+            <Attribute name="UNR" width="20"/>
+            <Attribute name="Overall Covered" width="65"/>
+            <Attribute name="Exclusion Rule Type" width="20"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="bucketsTable">
+            <Attribute name="Score" width="39"/>
+            <Attribute name="Overall Average Grade" width="110"/>
+            <Attribute name="UNR" width="20"/>
+            <Attribute name="Overall Covered" width="65"/>
+            <Attribute name="Exclusion Rule Type" width="20"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+      </view>
+      <view name="ngv_root_user.METRIC_SUMMARY.All_Metrics">
+         <table name="summaryTreeTableBox">
+            <Attribute name="Overall Average Grade" width="157"/>
+            <Attribute name="UNR" width="20"/>
+            <Attribute name="Overall Covered" width="113"/>
+            <Attribute name="Assertion Status Grade" width="125"/>
+            <Attribute name="Exclusion Rule Type" width="20"/>
+            <Attribute name="Name" width="297"/>
+         </table>
+         <table name="infoTabBoxItemsTable">
+            <Attribute name="Overall Average Grade" width="110"/>
+            <Attribute name="Enclosing Entity" width="350"/>
+            <Attribute name="UNR" width="20"/>
+            <Attribute name="Overall Covered" width="65"/>
+            <Attribute name="Exclusion Rule Type" width="20"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="infoTabBoxFSMsTable">
+            <Attribute name="Overall Average Grade" width="110"/>
+            <Attribute name="Enclosing Entity" width="350"/>
+            <Attribute name="UNR" width="20"/>
+            <Attribute name="Overall Covered" width="65"/>
+            <Attribute name="Exclusion Rule Type" width="20"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="infoTabBoxBinsTable">
+            <Attribute name="Score" width="39"/>
+            <Attribute name="Overall Average Grade" width="110"/>
+            <Attribute name="UNR" width="20"/>
+            <Attribute name="Overall Covered" width="65"/>
+            <Attribute name="Exclusion Rule Type" width="20"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="metricItemsTree">
+            <Attribute name="Overall Average Grade" width="110"/>
+            <Attribute name="UNR" width="20"/>
+            <Attribute name="Overall Covered" width="65"/>
+            <Attribute name="Exclusion Rule Type" width="20"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="infoTabBoxSub_ElementsTable">
+            <Attribute name="Overall Average Grade" width="110"/>
+            <Attribute name="UNR" width="20"/>
+            <Attribute name="Overall Covered" width="65"/>
+            <Attribute name="Assertion Status Grade" width="78"/>
+            <Attribute name="Exclusion Rule Type" width="20"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="infoTabBoxAssertionsTable">
+            <Attribute name="Overall Average Grade" width="110"/>
+            <Attribute name="UNR" width="20"/>
+            <Attribute name="Overall Covered" width="65"/>
+            <Attribute name="Assertion Status Grade" width="78"/>
+            <Attribute name="Exclusion Rule Type" width="20"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="infoTabBoxCover_GroupsTable">
+            <Attribute name="Overall Average Grade" width="110"/>
+            <Attribute name="Enclosing Entity" width="350"/>
+            <Attribute name="UNR" width="20"/>
+            <Attribute name="Overall Covered" width="65"/>
+            <Attribute name="Exclusion Rule Type" width="20"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="infoTabBoxToggleTable">
+            <Attribute name="Overall Average Grade" width="110"/>
+            <Attribute name="UNR" width="20"/>
+            <Attribute name="Overall Covered" width="65"/>
+            <Attribute name="Exclusion Rule Type" width="20"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+      </view>
+   </ViewWidget>
+</SETTINGS_DOC>

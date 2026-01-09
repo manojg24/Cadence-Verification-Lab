@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SETTINGS_DOC>
+   <com.cadence.ufi.gui.workspace.GUFIPrefSettings VERSION="0">
+      <pref name="PopupMessageTypes"
+            value="IMC.REMOTE_MODE#true:GUFI.HOWTO_OPEN_SEARCH_BAR#true:IMC.SESSION_ANALYSIS_CHANGE#true:IMC.REFRESH_CUM_VPLAN#true:GUFI.HOWTO_OPEN_LEGEND_BAR#true:IMC.OPEN_PLAN#true:GUFI.NEW_PAGE#false:GUFI.CLIENT_LICENSE_NOTIFICATION_MESSAGES#true:IMC.REFRESH_NEW_LOCATION#true:IMC.GENERAL_INFO#true:IMC.REFRESH_CONFIG#true:GUFI.NO_ACTION_INFO#true:GUFI.NOTIFICATION_MESSAGES#true:GUFI.WARNING_MESSAGES#true"/>
+      <pref name="vsof"
+            value="/home/grads/m/manojgangaraja/lab-9-manojg24/work/sim/cov_work/scope/test:/home/grads/m/manojgangaraja/lab-6-manojg24/work/sim/cov_work/scope/test"/>
+   </com.cadence.ufi.gui.workspace.GUFIPrefSettings>
+</SETTINGS_DOC>

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SETTINGS_DOC>
+   <ViewWidget VERSION="0">
+      <view name="ngv_root_user.TEST_HIERARCHY.Test_Hierarchy">
+         <table name="excludedRunsTable">
+            <Attribute name="Exclusion Time" width="157"/>
+            <Attribute name="Exclusion User" width="207"/>
+            <Attribute name="Exclusion Comment" width="207"/>
+            <Attribute name="Index" width="96"/>
+            <Attribute name="Name" width="307"/>
+         </table>
+         <table name="faultsElementsTable">
+            <Attribute name="Fault Type" width="150"/>
+            <Attribute name="Fault Inject Time" width="150"/>
+            <Attribute name="Fault Node" width="150"/>
+            <Attribute name="Fault Annotation" width="150"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="runsWarningsElementsTable">
+            <Attribute name="Description" width="380"/>
+            <Attribute name="Name" width="250"/>
+            <Attribute name="Tool" width="150"/>
+         </table>
+         <table name="runsElementsEntitiesBoxTable">
+            <Attribute name="Status" width="150"/>
+            <Attribute name="Seed" width="36"/>
+            <Attribute name="Duration (sec.)" width="55"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="runsWarningsElementsEntitiesBoxTable">
+            <Attribute name="Description" width="380"/>
+            <Attribute name="Name" width="250"/>
+            <Attribute name="Tool" width="150"/>
+         </table>
+         <table name="runsElementsTable">
+            <Attribute name="Status" width="188"/>
+            <Attribute name="Duration (sec.)" width="94"/>
+            <Attribute name="Index" width="77"/>
+            <Attribute name="Top Files" width="188"/>
+            <Attribute name="Start Time" width="139"/>
+            <Attribute name="Name" width="288"/>
+         </table>
+         <table name="runsMessagesElementsEntitiesBoxTable">
+            <Attribute name="Description" width="380"/>
+            <Attribute name="Name" width="250"/>
+            <Attribute name="Tool" width="150"/>
+         </table>
+         <table name="faultsElementsEntitiesBoxTable">
+            <Attribute name="Fault Type" width="150"/>
+            <Attribute name="Fault Inject Time" width="150"/>
+            <Attribute name="Fault Node" width="150"/>
+            <Attribute name="Fault Annotation" width="150"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="propertiesElementsEntitiesBoxTable">
+            <Attribute name="Status" width="150"/>
+            <Attribute name="Trace Status" width="150"/>
+            <Attribute name="Type" width="150"/>
+            <Attribute name="Instance" width="150"/>
+            <Attribute name="Trace Depth" width="45"/>
+            <Attribute name="CPU Time (ms.)" width="66"/>
+            <Attribute name="Depth" width="42"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="runsMessagesElementsTable">
+            <Attribute name="Description" width="380"/>
+            <Attribute name="Category" width="150"/>
+            <Attribute name="Severity" width="150"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="propertiesElementsTable">
+            <Attribute name="Status" width="150"/>
+            <Attribute name="Trace Status" width="150"/>
+            <Attribute name="Type" width="150"/>
+            <Attribute name="Instance" width="150"/>
+            <Attribute name="Trace Depth" width="45"/>
+            <Attribute name="CPU Time (ms.)" width="66"/>
+            <Attribute name="Depth" width="42"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="testTreeTableBox">
+            <Attribute name="Test Status" width="183"/>
+            <Attribute name="Overall Average Grade" width="232"/>
+            <Attribute name="Overall Covered" width="187"/>
+            <Attribute name="Name" width="372"/>
+         </table>
+      </view>
+      <view name="ngv_root_user.VPLAN.All_Vplan">
+         <table name="vPlanMappedItems">
+            <Attribute name="Overall Average Grade" width="110"/>
+            <Attribute name="UNR" width="20"/>
+            <Attribute name="Overall Covered" width="65"/>
+            <Attribute name="Exclusion Rule Type" width="20"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="vPlanRunsElementsTable">
+            <Attribute name="Status" width="171"/>
+            <Attribute name="Duration (sec.)" width="77"/>
+            <Attribute name="Index" width="61"/>
+            <Attribute name="Name" width="272"/>
+         </table>
+         <table name="vPlanMappedAssertions">
+            <Attribute name="Overall Average Grade" width="110"/>
+            <Attribute name="UNR" width="20"/>
+            <Attribute name="Overall Covered" width="65"/>
+            <Attribute name="Assertion Status Grade" width="78"/>
+            <Attribute name="Exclusion Rule Type" width="20"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="vPlanRunsElementsEntitiesBoxTable">
+            <Attribute name="Status" width="150"/>
+            <Attribute name="Enclosing Entity" width="350"/>
+            <Attribute name="Duration (sec.)" width="55"/>
+            <Attribute name="Index" width="39"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="vPlanTreeTableBox">
+            <Attribute name="Overall Average Grade" width="232"/>
+            <Attribute name="UNR" width="20"/>
+            <Attribute name="Overall Covered" width="187"/>
+            <Attribute name="Assertion Status Grade" width="199"/>
+            <Attribute name="Exclusion Rule Type" width="20"/>
+            <Attribute name="Name" width="371"/>
+         </table>
+         <table name="vPlanSubElementsTable">
+            <Attribute name="Overall Average Grade" width="128"/>
+            <Attribute name="UNR" width="20"/>
+            <Attribute name="Overall Covered" width="83"/>
+            <Attribute name="Assertion Status Grade" width="95"/>
+            <Attribute name="Exclusion Rule Type" width="20"/>
+            <Attribute name="Name" width="267"/>
+         </table>
+         <table name="vPlanMappedCoverGroups">
+            <Attribute name="Overall Average Grade" width="110"/>
+            <Attribute name="UNR" width="20"/>
+            <Attribute name="Overall Covered" width="65"/>
+            <Attribute name="Exclusion Rule Type" width="20"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="vPlanBuckets">
+            <Attribute name="Score" width="39"/>
+            <Attribute name="Overall Average Grade" width="110"/>
+            <Attribute name="UNR" width="20"/>
+            <Attribute name="Exclusion Rule Type" width="20"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="vPlanMetricItemsTree">
+            <Attribute name="Overall Average Grade" width="159"/>
+            <Attribute name="UNR" width="20"/>
+            <Attribute name="Overall Covered" width="115"/>
+            <Attribute name="Exclusion Rule Type" width="20"/>
+            <Attribute name="Name" width="299"/>
+         </table>
+         <table name="vPlanMappedToggle">
+            <Attribute name="Overall Average Grade" width="110"/>
+            <Attribute name="Enclosing Entity" width="350"/>
+            <Attribute name="UNR" width="20"/>
+            <Attribute name="Overall Covered" width="65"/>
+            <Attribute name="Exclusion Rule Type" width="20"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="vPlanMappedElements">
+            <Attribute name="Overall Average Grade" width="110"/>
+            <Attribute name="UNR" width="20"/>
+            <Attribute name="Overall Covered" width="65"/>
+            <Attribute name="Assertion Status Grade" width="78"/>
+            <Attribute name="Exclusion Rule Type" width="20"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="vPlanMappedFSMs">
+            <Attribute name="Overall Average Grade" width="110"/>
+            <Attribute name="UNR" width="20"/>
+            <Attribute name="Overall Covered" width="65"/>
+            <Attribute name="Exclusion Rule Type" width="20"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+      </view>
+      <view name="ngv_root_user.MESSAGES.First_Failure">
+         <table name="messagesElementsTable">
+            <Attribute name="Context" width="150"/>
+            <Attribute name="Description" width="380"/>
+            <Attribute name="Category" width="150"/>
+            <Attribute name="Number Of Entities" width="68"/>
+            <Attribute name="Severity" width="150"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="messagesRunsElementsEntitiesBoxTable">
+            <Attribute name="Status" width="150"/>
+            <Attribute name="Seed" width="36"/>
+            <Attribute name="Duration (sec.)" width="55"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="messagesRunsElementsTable">
+            <Attribute name="Status" width="150"/>
+            <Attribute name="First Failure Time" width="76"/>
+            <Attribute name="Seed" width="36"/>
+            <Attribute name="First Failure Log File" width="150"/>
+            <Attribute name="Index" width="39"/>
+            <Attribute name="Run Dir" width="150"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="messagesElementsEntitiesBoxTable">
+            <Attribute name="Context" width="152"/>
+            <Attribute name="Description" width="381"/>
+            <Attribute name="Time" width="39"/>
+            <Attribute name="Severity" width="151"/>
+            <Attribute name="Name" width="251"/>
+         </table>
+      </view>
+      <view name="ngv_root_user.RUNS.Default">
+         <table name="allRunsWarningsEntitiesBoxTable">
+            <Attribute name="Description" width="380"/>
+            <Attribute name="Name" width="250"/>
+            <Attribute name="Tool" width="150"/>
+         </table>
+         <table name="faultsElementsTable">
+            <Attribute name="Fault Type" width="150"/>
+            <Attribute name="Fault Inject Time" width="150"/>
+            <Attribute name="Fault Node" width="150"/>
+            <Attribute name="Fault Annotation" width="150"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="runsElementsEntitiesBoxTable">
+            <Attribute name="Status" width="150"/>
+            <Attribute name="Seed" width="36"/>
+            <Attribute name="Duration (sec.)" width="55"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="runsElementsTable">
+            <Attribute name="Status" width="227"/>
+            <Attribute name="Duration (sec.)" width="132"/>
+            <Attribute name="Index" width="116"/>
+            <Attribute name="Top Files" width="227"/>
+            <Attribute name="Name" width="327"/>
+         </table>
+         <table name="faultsElementsEntitiesBoxTable">
+            <Attribute name="Fault Type" width="150"/>
+            <Attribute name="Fault Inject Time" width="150"/>
+            <Attribute name="Fault Node" width="150"/>
+            <Attribute name="Fault Annotation" width="150"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="allRunsWarningsTable">
+            <Attribute name="Description" width="380"/>
+            <Attribute name="Name" width="250"/>
+            <Attribute name="Tool" width="150"/>
+         </table>
+         <table name="propertiesElementsEntitiesBoxTable">
+            <Attribute name="Status" width="150"/>
+            <Attribute name="Trace Status" width="150"/>
+            <Attribute name="Type" width="150"/>
+            <Attribute name="Instance" width="150"/>
+            <Attribute name="Trace Depth" width="45"/>
+            <Attribute name="CPU Time (ms.)" width="66"/>
+            <Attribute name="Depth" width="42"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="allrunsMessagesEntitiesBoxTable">
+            <Attribute name="Description" width="380"/>
+            <Attribute name="Name" width="250"/>
+            <Attribute name="Tool" width="150"/>
+         </table>
+         <table name="propertiesElementsTable">
+            <Attribute name="Status" width="150"/>
+            <Attribute name="Trace Status" width="150"/>
+            <Attribute name="Type" width="150"/>
+            <Attribute name="Instance" width="150"/>
+            <Attribute name="Trace Depth" width="45"/>
+            <Attribute name="CPU Time (ms.)" width="66"/>
+            <Attribute name="Depth" width="42"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="allrunsMessagesTable">
+            <Attribute name="Description" width="380"/>
+            <Attribute name="Name" width="250"/>
+            <Attribute name="Tool" width="150"/>
+         </table>
+      </view>
+      <view name="ngv_root_user.PLANNER.All_Planner">
+         <table name="plannervPlanTreeTableBox">
+            <Attribute name="Name" width="992"/>
+         </table>
+         <table name="metricsMappingTogglesTable">
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="metricsTree">
+            <Attribute name="Name" width="404"/>
+            <Attribute name="Valid Metrics" width="124"/>
+         </table>
+      </view>
+      <view name="ngv_root_user.SESSIONS.My_Sessions">
+         <table name="sessionsInaccessibleElements_table">
+            <Attribute name="Owner" width="150"/>
+            <Attribute name="DB Insertion Priority" width="150"/>
+            <Attribute name="Start Time" width="100"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="flowsElementsEntitiesBoxTable">
+            <Attribute name="#Waiting" width="56"/>
+            <Attribute name="Owner" width="150"/>
+            <Attribute name="#Other" width="47"/>
+            <Attribute name="#Failed" width="48"/>
+            <Attribute name="Session Status" width="150"/>
+            <Attribute name="#Passed" width="53"/>
+            <Attribute name="Total Runs" width="110"/>
+            <Attribute name="#Running" width="58"/>
+            <Attribute name="Start Time" width="100"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="flowsElementsTable">
+            <Attribute name="#Waiting" width="56"/>
+            <Attribute name="Owner" width="150"/>
+            <Attribute name="#Other" width="47"/>
+            <Attribute name="#Failed" width="48"/>
+            <Attribute name="Session Status" width="150"/>
+            <Attribute name="#Passed" width="53"/>
+            <Attribute name="Total Runs" width="110"/>
+            <Attribute name="#Running" width="58"/>
+            <Attribute name="Start Time" width="100"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="sessionsElementsTableEntitiesBoxTable">
+            <Attribute name="#Waiting" width="56"/>
+            <Attribute name="Owner" width="150"/>
+            <Attribute name="#Other" width="47"/>
+            <Attribute name="#Failed" width="48"/>
+            <Attribute name="Session Status" width="150"/>
+            <Attribute name="#Passed" width="53"/>
+            <Attribute name="Total Runs" width="110"/>
+            <Attribute name="#Running" width="58"/>
+            <Attribute name="Start Time" width="100"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+         <table name="sessionsElementsTable">
+            <Attribute name="#Waiting" width="142"/>
+            <Attribute name="Owner" width="234"/>
+            <Attribute name="#Other" width="131"/>
+            <Attribute name="#Failed" width="133"/>
+            <Attribute name="Session Status" width="234"/>
+            <Attribute name="#Passed" width="138"/>
+            <Attribute name="Total Runs" width="194"/>
+            <Attribute name="#Running" width="142"/>
+            <Attribute name="Start Time" width="186"/>
+            <Attribute name="Name" width="334"/>
+         </table>
+         <table name="sessionsInaccessibleElementsEntitiesBoxTable">
+            <Attribute name="Owner" width="150"/>
+            <Attribute name="DB Insertion Priority" width="150"/>
+            <Attribute name="Start Time" width="100"/>
+            <Attribute name="Name" width="250"/>
+         </table>
+      </view>
+   </ViewWidget>
+</SETTINGS_DOC>
